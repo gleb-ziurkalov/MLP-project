@@ -1,0 +1,29 @@
+Text$Label
+RITTAL$junk
+Selbstauskunft REACH SVHC SCIP Compliance$junk
+Company Statement REACH SVHC SCIP Compliance$junk
+Wir / We$junk
+Rittal GmbH & Co. KG$b_entity
+Auf dem Stutzelberg$junk
+D-35745 Herborn$junk 
+bestatigen, dass alle unsere Produkte konform sind zur aktuellen Version der REACH Richtlinie (EG)$subscmpl_data
+1907/2006 und den mitgeltenden Forderungen incl. Anhang XIV, Anhang XVII: (EU) 2018/2005, (EU)$subscmpl_data
+2018/588), und dass - gema3 Auskunft unserer Lieferanten - keine Substanzen der gultigen REACH$subscmpl_data
+ECHA SVHC-Liste (Ausgabedatum ECHA 17.01.2023 - 233 Substanzen) in unseren Rittal-Produkten,$subscmpl_data
+incl. der Verpackung, enthalten sind bzw. der maximal zulassige Grenzwert von O,1 Gewichtsprozent$jsubscmpl_data
+(w/w) eingehalten wird.$subscmpl_data
+Seitens Rittal unterliegen wir daher nicht dem SCIP-Reporting nach (EU) 2018/851.$junk
+Die Rittal REACH SVHC SCIP-Konformitat gilt ebenfalls fur kundenspezifische Ausfuhrungen.$subscmpl_data
+Confirm that all our products are manufactured in compliance with the latest version of the REACH$subscmpl_data
+directive (EC) 1907/2006 and other applicable documents, incl. Annex XIV, Annex XVII: (EU) 2018/2005,$subscmpl_data
+(EU) 2018/588), and that - according to information from our suppliers - none of the substances specified$subscmpl_data
+any Rittal product, including packaging, or do not exceed the maximum threshold limit value O.1% weight$subscmpl_data
+by weight (w/w).$subscmpl_data
+On the part of Rittal, we are therefore not subject to SCIP reporting according to the EU Dir. 2018/851.$subscmpl_data
+Rittal REACH SVHC SCIP Compliance covers also customized products.$subscmpl_data
+This confirmation applies to all Rittal subsidiaries worldwide.$subscmpl_data
+If in future further information will be necessary, we will meet our duty to supply this information.$subscmpl_data
+Herborn, den 20.03.2023$date
+Place / Date$junk
+Mario Ortmann, Quality Management$junk
+FRIEDHELM LOH GROUP$b_entity
