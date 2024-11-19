@@ -1,0 +1,29 @@
+useful_data,junk_data,date,business_entity,regulation,text,business_entity_confidence
+True,,,,,RITTAL,
+True,,,,True,Selbstauskunft REACH SVHC SCIP Compliance,
+,,,,,Company Statement REACH SVHC SCIP Compliance,
+,,,,,Wir / We,
+True,,,True,,Rittal GmbH & Co. KG,0.9994693398475647
+True,,,,,Auf dem Stutzelberg,0.9719313383102417
+,,,,,D-35745 Herborn,
+True,,,,,"bestatigen, dass alle unsere Produkte konform sind zur aktuellen Version der REACH Richtlinie (EG)",0.9945772886276245
+True,,,,,"1907/2006 und den mitgeltenden Forderungen incl. Anhang XIV, Anhang XVII: (EU) 2018/2005, (EU)",0.9910336136817932
+,,,,,"2018/588), und dass - gema3 Auskunft unserer Lieferanten - keine Substanzen der gultigen REACH",
+True,,True,,,"ECHA SVHC-Liste (Ausgabedatum ECHA 17.01.2023 - 233 Substanzen) in unseren Rittal-Produkten,",0.9726620316505432
+True,,,,,"incl. der Verpackung, enthalten sind bzw. der maximal zulassige Grenzwert von O,1 Gewichtsprozent",0.9795145988464355
+,,,,,(w/w) eingehalten wird.,
+True,,,,,Seitens Rittal unterliegen wir daher nicht dem SCIP-Reporting nach (EU) 2018/851.,0.9621788263320923
+True,,,,,Die Rittal REACH SVHC SCIP-Konformitat gilt ebenfalls fur kundenspezifische Ausfuhrungen.,0.9799293875694275
+,,,,,Confirm that all our products are manufactured in compliance with the latest version of the REACH,
+True,,,,,"directive (EC) 1907/2006 and other applicable documents, incl. Annex XIV, Annex XVII: (EU) 2018/2005,",0.9892441034317017
+True,,,,,"(EU) 2018/588), and that - according to information from our suppliers - none of the substances specified",0.9832555055618286
+True,,,,,"any Rittal product, including packaging, or do not exceed the maximum threshold limit value O.1% weight",0.8817957043647766
+,,,,,by weight (w/w).,
+True,,,,,"On the part of Rittal, we are therefore not subject to SCIP reporting according to the EU Dir. 2018/851.",0.9758294820785522
+True,,,,,Rittal REACH SVHC SCIP Compliance covers also customized products.,0.9759740233421326
+True,,,,,This confirmation applies to all Rittal subsidiaries worldwide.,0.9810456037521362
+,,,,,"If in future further information will be necessary, we will meet our duty to supply this information.",
+True,,True,,,"Herborn, den 20.03.2023",
+,,,,,Place / Date,
+True,,,,,"Mario Ortmann, Quality Management",0.9973847270011902
+True,,,True,,FRIEDHELM LOH GROUP,0.9532563090324402
