@@ -12,10 +12,11 @@ LABELED_DATA_DIR   = "./data/labeled_data/"
 INPUT_PDF_DIR      = "./data/input_pdf/"
 
 TRAINED_MODEL_DIR  = "./data/trained_model/"
-FINAL_MODEL_DIR  = "./data/trained_model/checkpoint-1518/"
+FINAL_MODEL_DIR  = "./data/final_model/"
 
 
-FILES = os.listdir(PDF_STATEMENTS_DIR)
+TFILES = os.listdir(PDF_STATEMENTS_DIR)
+SFILES = os.listdir(INPUT_PDF_DIR)
 
 def default_handler(obj):
     if isinstance(obj, np.floating):
@@ -35,7 +36,7 @@ def label_doc(text):
 
     return labeled_data
 
-def process_data(files):
+def process_tdata(files):
     for entry in files:
         
         file_path = os.path.join(PDF_STATEMENTS_DIR, entry)
@@ -50,16 +51,22 @@ def process_data(files):
         with open(training_dataset_path, "w") as f:
             json.dump(dataset_labeled, f, indent=4, default=default_handler)
 
+def process_statement(files):
+    for entry in files:
+        file_path = os.path.join(INPUT_PDF_DIR, entry)
+        compliance_processed = pdf_to_text(file_path, FINAL_MODEL_DIR)
+        
+        print("Compliant Statements:")
+        for statement in compliance_processed:
+            print(statement)
+
 def main():
 
-    # process_data(FILES)
-    train_model(LABELED_DATA_DIR, FINAL_MODEL_DIR)
+    # process_tdata(TFILES)
+    # train_model(LABELED_DATA_DIR, FINAL_MODEL_DIR)
 
-    #compliant_statements = pdf_to_text(INPUT_PDF_DIR, TRAINED_MODEL_DIR)
+    process_statement(INPUT_PDF_DIR)
 
-    #print("Compliant Statements:")
-    #for statement in compliant_statements:
-    #    print(statement)
 
 if __name__ == "__main__":
     main()

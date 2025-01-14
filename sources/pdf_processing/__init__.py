@@ -26,6 +26,8 @@ def pdf_to_text(pdf_path, model_path):
     pages = pdf_to_image(pdf_path)
     classified_lines = classify_lines(model, tokenizer, pages)
 
+    print(classified_lines)
+
     clear_memory()
     return [line for line, label in classified_lines if label == 1]
 
