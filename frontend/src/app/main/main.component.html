@@ -1,0 +1,47 @@
+<div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <ul>
+        <li
+          [class.active]="activeOption === 1"
+          (click)="selectOption(1)"
+        >
+          CompEval
+        </li>
+        <li
+          [class.active]="activeOption === 2"
+          (click)="selectOption(2)"
+        >
+          History
+        </li>
+      </ul>
+    </aside>
+  
+    <!-- Main Content -->
+    <main class="content">
+      <!-- CompEval Section -->
+      <div *ngIf="activeOption === 1">
+        <h1>Welcome to CompEval</h1>
+        <button class="upload-btn">Upload Compliance Statement (PDF Only)</button>
+      </div>
+  
+      <!-- History Section -->
+      <div *ngIf="activeOption === 2">
+        <h1>You need to be logged in to see the history of your past evaluations!</h1>
+        <div class="auth-buttons">
+          <button class="auth-btn">Log In</button>
+          <button class="auth-btn">Sign Up</button>
+        </div>
+      </div>
+    </main>
+  
+    <!-- Top Right Menu -->
+    <div class="top-right-menu">
+      <div class="circle" (click)="toggleMenu()">☰</div>
+      <div class="dropdown" *ngIf="isDropdownVisible">
+        <button class="dropdown-btn">Log In</button>
+        <button class="dropdown-btn">Sign Up</button>
+      </div>
+    </div>
+  </div>
+  
