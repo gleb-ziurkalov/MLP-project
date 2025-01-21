@@ -83,6 +83,13 @@ body {
     right: 20px;
   }
   
+  .top-right-menu .dropdown-greeting {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+  }
+
   .circle {
     width: 40px;
     height: 40px;
@@ -109,4 +116,8 @@ body {
   .dropdown.hidden {
     display: none;
   }
-  
+  .history-text {
+    font-size: 1.5rem; /* Adjust font size for smaller text */
+    font-weight: normal;
+    text-align: left; /* Optional, center the text */
+  }

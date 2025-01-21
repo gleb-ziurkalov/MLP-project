@@ -21,17 +21,42 @@
     <main class="content">
       <!-- CompEval Section -->
       <div *ngIf="activeOption === 1">
-        <h1>Welcome to CompEval</h1>
-        <button class="upload-btn">Upload Compliance Statement (PDF Only)</button>
+        <h1>Welcome to CompEval <span *ngIf="username">, {{ username }}</span> </h1>
+        <button class="upload-btn" (click)="triggerFileUpload(fileInput)">Upload Compliance Statement (PDF Only)</button>
+        <input
+          #fileInput
+          type="file"
+          accept="application/pdf"
+          (change)="onFileSelected($event)"
+          style="display: none"
+        />
+        <!-- Error message -->
+        <div *ngIf="errorMessage" class="error-message">
+          {{ errorMessage }}
+        </div>
+
+        <!-- File name and Evaluate button -->
+        <div *ngIf="selectedFileName" class="file-info">
+          <p>Selected file: {{ selectedFileName }}</p>
+          <button class="upload-btn" (click)="evaluateFile()">Evaluate</button>
+        </div>
       </div>
   
       <!-- History Section -->
       <div *ngIf="activeOption === 2">
-        <h1>You need to be logged in to see the history of your past evaluations!</h1>
-        <div class="auth-buttons">
-          <button class="auth-btn">Log In</button>
-          <button class="auth-btn">Sign Up</button>
-        </div>
+        <!-- Display 'History' if username exists -->
+        <ng-container *ngIf="username; else guestView">
+          <h2 class="history-text">History</h2>
+        </ng-container>
+      
+        <!-- Guest view if no username -->
+        <ng-template #guestView>
+          <h1>You need to be logged in to see the history of your past evaluations!</h1>
+          <div class="auth-buttons">
+            <button class="auth-btn" (click)="login()">Log In</button>
+            <button class="auth-btn" (click)="signup()">Sign Up</button>
+          </div>
+        </ng-template>
       </div>
     </main>
   
@@ -39,8 +64,16 @@
     <div class="top-right-menu">
       <div class="circle" (click)="toggleMenu()">☰</div>
       <div class="dropdown" *ngIf="isDropdownVisible">
-        <button class="dropdown-btn">Log In</button>
-        <button class="dropdown-btn">Sign Up</button>
+        <!-- If username is available, show a greeting and logout button -->
+        <ng-container *ngIf="username; else guestMenu">
+          <p class="dropdown-greeting">Hi, {{ username }}</p>
+          <button class="dropdown-btn" (click)="logout()">Log Out</button>
+        </ng-container>
+        <!-- If no username, show login and signup options -->
+        <ng-template #guestMenu>
+          <button class="dropdown-btn" (click)="login()">Log In</button>
+          <button class="dropdown-btn" (click)="signup()">Sign Up</button>
+        </ng-template>
       </div>
     </div>
   </div>
