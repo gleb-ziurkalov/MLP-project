@@ -1,0 +1,314 @@
+[
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "AMPHENOL",
+        "business_entity_confidence": 0.9986446499824524
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "PROCOM"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "PBT Certificate of Compliance"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "General Compliance Statement"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "According to the Environmental Protection Agency (EPA) Toxic Substances Control Act (TsCA);",
+        "business_entity_confidence": 0.9985176920890808
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Persistent, Bioaccumulative, and Toxic (PBT) Chemicals under TsCA Section 6(h)."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "This document is to declare, that products manufactured by Amphenol Procom's two.",
+        "business_entity_confidence": 0.9994000196456909
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "manufacturing sites:"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Amphenol Procom A/S",
+        "business_entity_confidence": 0.9981371164321899
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": "Jaybeam Ltd.",
+        "business_entity_confidence": 0.9994775652885437
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Smedetoften 12",
+        "business_entity_confidence": 0.9991366267204285
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Rutherford Drive, Park Farm South."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "3600 Frederikssund"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Wellingborough, Northamptonshire",
+        "business_entity_confidence": 0.8931107521057129
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Denmark"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "NN8 6AX"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "United Kingdom"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Are in compliance with the regulation above.."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "We declare under our sole responsibility that all our products, and that to the best of our"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "knowledge to which this declaration relates, do not contain the substances listed in the table"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "below."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Substance"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "CAS #"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": " Decabromodiphenyl ether"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "1163-19-5"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Phenol, isopropylated phosphate (PIP) (3:1)"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "68937-41-7"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "2,4,6-tris(tert-butyl)phenol"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "732-26-3"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Hexachlorobutadiene"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "87-68-3"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Pentachlorothiophenol"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "133-49-3"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Frederikssund 10th June 2021",
+        "business_entity_confidence": 0.9975135326385498
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Hass Nygaard"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Product Engineering M anager"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "202106101047 - Revision"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Page 1 of 1"
+    }
+]

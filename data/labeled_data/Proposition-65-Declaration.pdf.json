@@ -1,0 +1,233 @@
+[
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "ACI",
+        "business_entity_confidence": 0.9981513619422913
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": "Advanced Cable Ties, Inc..",
+        "business_entity_confidence": 0.9996181726455688
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "245 Suffolk Lane, Gardner, MA 01440"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Phone (800) 861-7228 - Fax (978) 630-3999"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "sales@actfs.com - www.actfs.com"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "CALIFORNIA PROPOSITION 65 DECLARATION",
+        "business_entity_confidence": 0.9986031651496887
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Dear Valued Customers,."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "This certificate is to inform Advanced Cable Ties customers that items produced by Advanced Cable Ties do",
+        "business_entity_confidence": 0.998691737651825
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "not contain chemicals which are listed on California's Safe Drinking Water & Toxic Enforcement Act of 1986."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "This Act, commonly known as Proposition 65 (Prop 65), establishes a list of chemicals which the state of"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "California's risk assessment process has determined to present a risk of cancer, birth defects or other."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "reproductive harm."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "The Proposition 65 chemical list can be found at:."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "http://www.oehha.ca.gov/prop65/prop65 list/files/P65single01032014.pdf"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Be assured, ACT Fastening Solutions will continue to monitor the Proposition 65 regulations for any new",
+        "business_entity_confidence": 0.9995825886726379
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "chemicals. ACT Fastening Solutions will compare any newly listed chemicals with the raw materials in our",
+        "business_entity_confidence": 0.9996238946914673
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "finished product and communicate this information to our customers.."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Regards,"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Jeff Arnold"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Jeff Arnold"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Quality Manager"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "ACT Fastening Solutions.",
+        "business_entity_confidence": 0.999636173248291
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Disclaimer:"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "THIS STATEMENT IS FOR INFORMATIONAL PURPOSES ONLY, DOES NOT CONSTITUTE A LEGAL REPRESENTATION AND DOES NOT CREATE ORI"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "CONFIRM THE EXISTENCE OF ANY RIGHTS, LIABILITIES OR OBLIGATIONS OF ACT FASTENING SOLUTIONS, ITS AFFILIATES, ANY OF THEIR RESPECTIVE"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "CUSTOMERS OR ANY OTHER PERSON. THE SALE OF ACT FASTENING SOLUTIONS PRODUCTS SHALL BE GOVERNED EXCLUSIVELY BY THE TERMS AND"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "CONDITIONS SET FORTH IN THE APPLICABLE ACT FASTENING SOLUTIONS SALES AGREEMENT."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "FRM-4.3.49.0"
+    }
+]

@@ -1,0 +1,181 @@
+[
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Issi"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "INTEGRATED SILICON SOLUTION, INC.E"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Declaration of California Proposition 65."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Proposition 65 is a California law officially known as the California Safe Drinking Water and"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Toxic Enforcement Act, approved by California voters in 1986. The purpose of Proposition 65"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "warning is to ensure that people are informed about exposure to such chemicals by the State of."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "California to cause cancer, birth defects or the other reproductive harm.."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "ISSI reviews suppliers' certifications, content declarations, and confidentially disclosed",
+        "business_entity_confidence": 0.9991939663887024
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "chemicals and materials information. Based on foregoing information, Issl has determined to",
+        "business_entity_confidence": 0.9915618300437927
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "the best of its knowledge and belief that certain ISsl semiconductor products may contain one"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "or more of chemicals on the Prop 65 List. Issl products are not intended to cause user exposure"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "to any contained substances, nor are they intended to be released or discharged during normal"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "product use."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "To our knowledge, ISsI products are within the \"no significant risk\" range, and not harmful"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "when normally used. However, Issl has elected to provide this Proposition 65 declaration on our"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "website."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Visit https://oehha.ca.gov/proposition-65 to get more information about Proposition 65."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Wei Ping Liu"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Vice President"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Operation Division"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": "Integrated Silicon Solution, Inc. (\"Issl'), a Delaware corporation with an office located at 1623.",
+        "business_entity_confidence": 0.9992699027061462
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Buckeye Drive, Milpitas, California, 95035-7423 USA"
+    }
+]

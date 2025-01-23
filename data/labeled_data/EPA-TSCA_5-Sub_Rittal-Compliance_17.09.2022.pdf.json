@@ -1,0 +1,343 @@
+[
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "RITTAL"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Confirmation Rittal Compliance",
+        "business_entity_confidence": 0.9869508147239685
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "EPA TSCA sec. 6 substance Jist",
+        "business_entity_confidence": 0.9988530874252319
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Wir I We"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": "Rittal GmbH & Co. KG",
+        "business_entity_confidence": 0.9994693398475647
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Auf dem Stutzelberg.",
+        "business_entity_confidence": 0.9817333221435547
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "D-35745 Herborn"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Germany"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "bestatigen, dass alle unsere Produkte konform sind zur EPA TSCA section 6 Substanz.",
+        "business_entity_confidence": 0.9762646555900574
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Liste gemaB unten eingefugter CAs-Ubersicht. Von der Lieferkette liegen uns keine",
+        "business_entity_confidence": 0.9379868507385254
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "anderslautenden Informationen vor.",
+        "business_entity_confidence": 0.9918687343597412
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Die Rittal-Konformitat gilt ebenfalls fur kundenspezifische Ausfuhrungen."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Diese Bestatigung gilt fur alle Rittal-Niederlassungen weltweit."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Sofern im Weiteren erforderlich, werden wir unserer Informationspflicht nachkommen."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Confirm that all our products are compliant to the EPA TSCA section 6 substance list",
+        "business_entity_confidence": 0.9978639483451843
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "according to CAS overview inserted below. From the supply chain we do not have"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "information to the contrary."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "The Rittal Compliance covers also customized products.",
+        "business_entity_confidence": 0.9358440041542053
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "This confirmation applies to all Rittal subsidiaries worldwide",
+        "business_entity_confidence": 0.9230383038520813
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "If in future further information will be necessary, we will meet our duty to supply this information."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 1,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Herborn / 17.09.2022"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Ort / Datum"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Mario Ortmann"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Quality Management."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "1/2"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": "FRIEDHELM LOH GROUP",
+        "business_entity_confidence": 0.9532563090324402
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Relevant EPA TSCA section 6 substance list CAS overview",
+        "business_entity_confidence": 0.9985684156417847
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "CAS Number"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "1 Decabromodiphenyl ether (DecaBDE)"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "1163-19-5"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Phenol, isopropylated phosphate (3:1) or PIP (3:1)"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "68937-41-7"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "2,4,6-tris(tert-butyl)phenol (2,4,6-TTBP)"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "732-26-3"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "3"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "4Hexachlorobutadiene (HCBD)"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "87-68-3"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "5 Pentachlorothiophenol (PCTP)"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "133-49-3"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "2/2"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": "FRIEDHELM LOH GROUP",
+        "business_entity_confidence": 0.9532563090324402
+    }
+]

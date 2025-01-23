@@ -1,0 +1,118 @@
+[
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "CONNECTION TECHNOLOGY CENTER, INC."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "REACH COMPLIANCE STATEMENT"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Dear Valued Customer"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 1,
+        "text": "Connection Technology Center, INC supports the goal of REACH (Registration, Evaluation, and",
+        "business_entity_confidence": 0.9600024819374084
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Authorization of Chemicals). The European Union has passed legislation on June 1st 2007 that oversees",
+        "business_entity_confidence": 0.9994640946388245
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "the registration, evaluation, and authorization of particular chemicals within the European Union",
+        "business_entity_confidence": 0.9991852641105652
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Community."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": "Connection Technology Center, INC hereby certifies that its products do not contain any of the 233",
+        "business_entity_confidence": 0.9935130476951599
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Substance of Very High Concern (SVHC) currently on the candidate list last updated on January 17th"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "2023 above the threshold limit as defined in Article 57 or any substance restricted in Annex XIV and"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "XVII."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Product (P/N): All products sold at Connection Technology Center, INC."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Colin Walker."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Quality and Regulatory Affairs Manager"
+    }
+]

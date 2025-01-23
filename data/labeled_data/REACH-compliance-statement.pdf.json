@@ -1,0 +1,305 @@
+[
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "OLIMAX",
+        "business_entity_confidence": 0.9994361996650696
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "8141 TYLER BLVD-MENTOROHIO 44060",
+        "business_entity_confidence": 0.9969594478607178
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Metal Products Company",
+        "business_entity_confidence": 0.9962742328643799
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "PH.(800)542-6552FAx (800)860-5553www.climaxmetal.com"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Compliance with EU REACH Regulation (EC) No 1907/2006",
+        "business_entity_confidence": 0.9761793613433838
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Statement of REACH Compliance"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "REACH (the Registration, Evaluation, Authorization and restriction of Chemicals) was established by the European"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Union Regulation (EC) 1907/2006, and established the ECHA (European Chemicals Agency) to regulate chemicals",
+        "business_entity_confidence": 0.9988976716995239
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "and their safe use."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Under the structure of the Regulation, products manufactured by Climax Metal Products are considered \"Articles\"'",
+        "business_entity_confidence": 0.997986912727356
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "which by definition means \"an object which during production is given a special shape, surface or design which"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "determines its function to a greater degree than its chemical composition."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "\"Articles\"' manufactured and sold to the EU are exempt from registering, notifying or communicating substances in.",
+        "business_entity_confidence": 0.9984283447265625
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "\"articles\"' shipped to EU nations unless they contain SVHC (Substances of Very High Concern) on the current list for"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "authorization in amounts greater than 0.1% w/w. \"Articles' containing SVHC's in amounts greater than 0.1% w/w are.",
+        "business_entity_confidence": 0.9863068461418152
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "exempt from registration provided they belong to the category of \"articles without intentional release of substances'"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "A list of SVHC's (Substance of Very High Concern) was published by the ECHA in 2008, it has subsequently been.",
+        "business_entity_confidence": 0.9987640380859375
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "expanded multiple times."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "All products of Climax Metal Products Company are manufactured within the limits of this Regulation, with the",
+        "business_entity_confidence": 0.9993725419044495
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "exception(s) listed below."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Some Keyless Locking Devices (KLD) may contain lead, which is currently defined as a SVHC, in amounts greater"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "than 0.1% w/w. Please contact us for specifics regarding REACH compliance of KLD's."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Safe Use Policy: Avoid direct skin contact"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Flexible couplings provided by Climax Metal Products Company are out of compliance with the REACH Regulation.",
+        "business_entity_confidence": 0.9993025064468384
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "The rubber used in flexible couplings contains Bis(2-Ethylhexyl) phthalate (DEHP)."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Safe Use Information: ECHA Infocard for Bis(2-Ethylhexyl) phthalate.",
+        "business_entity_confidence": 0.9985185265541077
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "A review of \"Guidance on requirements for substances in articles\"' published by ECHA led Climax Metal Products",
+        "business_entity_confidence": 0.998117208480835
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Company to conclude that the above listed products can be categorized as \"articles without intentional release of"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "substances' and thus the SVHC's contained in these articles are exempt from registration with ECHA..",
+        "business_entity_confidence": 0.9984512329101562
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Climax Metal Products Company will continue to review its regulatory compliances and update appropriate.",
+        "business_entity_confidence": 0.9995328187942505
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "documentation as necessary."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Feel free to contact us if you have any further questions."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Mark Rigsby"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Director of Operations"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Document users are responsible for ensuring printed copies are valid prior to use.."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "1|Page"
+    }
+]

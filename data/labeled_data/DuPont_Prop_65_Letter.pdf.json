@@ -1,0 +1,329 @@
+[
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "OUPONT"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 1,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "August 17, 2018"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "RE:California Proposition 65 Compliance Statement"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "To Whom It May Concern:."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "As part of our product stewardship and regulatory compliance efforts, we continue to monitor potential regulatory, safety, health and"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "environmental impact of using your products. As such, we would like to inform you regarding the new requirements of the regulation"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "concerning California Proposition 65."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "California Proposition 65, officially known as the Safe Drinking Water and Toxic Enforcement Act of 1986, became law in November"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "1986. Proposition 65 requires businesses to provide warnings to Californians about significant exposures to chemicals that the State"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 1,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "of California has determined are known to the state to cause cancer, birth defects or other reproductive harm. On August 31, 2016,"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "the State of California Office of Environmental Health Hazard Assessment (OEHHA) adopted certain amendments to Article 6, Clear",
+        "business_entity_confidence": 0.9992176294326782
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "and Reasonable Warnings for California Proposition 65. For more information on warnings, go to www.P65Warnings.ca.gov.."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Most products manufactured by DuPont do not contain the substances regulated by California Proposition 65 and are not intended",
+        "business_entity_confidence": 0.998705267906189
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "for use by consumers. As such, these products are not required to have the California Proposition 65 warning labels."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "However, we would like to inform you that the products listed below may contain certain substances regulated by California."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Proposition 65."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "1. Tychemo 5000 styles C3525T, C3526T, C3528T and C3651T",
+        "business_entity_confidence": 0.9823748469352722
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "2.Tychem@ 9000 styles BR528T, BR557T and BR651T",
+        "business_entity_confidence": 0.9845415353775024
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "3. Tychemo RESPONDERo CSM style RC550T",
+        "business_entity_confidence": 0.9664018750190735
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "4. Tychemo 10000 styles TK527T, TK552T, TK554T, TK555T, TK586S, TK586T, TK587S, TK600T, TK601T, TK612T, TK613T and TK917T",
+        "business_entity_confidence": 0.9949040412902832
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "5. Tychem@ 10000 FR style RF600T",
+        "business_entity_confidence": 0.9385092854499817
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "6. Tyvek@ IsoClean@ shoe and boot covers with GripperM sole styles IC451s, IC447S and IC458B",
+        "business_entity_confidence": 0.9880946278572083
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "7.Tychem@ styles with a \"Jam Fit\" cuff system styles C3184T TN 00, C3185T TN 00, C3198T TN WG, C3199 TN WG, C3670T TN JF,",
+        "business_entity_confidence": 0.9414058923721313
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "C3750T TN 00, BR753T YL O0, RC128T TN 00"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "8.Universal Pressure Test Kit part 99081000000001uv"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Please feel free to contact me if additional information is needed.."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Sincerely,"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Hannah Suh, Ph.D.."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Global Product Stewarde"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "DuPont Safety & Construction",
+        "business_entity_confidence": 0.9994159936904907
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Chestnut Run Plaza 735/4355-2",
+        "business_entity_confidence": 0.991675078868866
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "974 Centre Road"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Wilmington, DE 19805"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": " Phone: 302-999-2778"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "hannah.suh@dupont.com"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "This information is based on our current level of knowledge and covers commercial products as supplied by DuPont at the date of",
+        "business_entity_confidence": 0.9983402490615845
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "issue. DuPont makes no warranties, express or implied, and assumes no liability in connection with any use of this information.",
+        "business_entity_confidence": 0.9989731311798096
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "The DuPont Oval Logo, DuPonttm, Gripperm, IsoCleano, RESPONDERo, Tychemo and Tyveko are trademarks or registered trademarks.",
+        "business_entity_confidence": 0.997802197933197
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "of E.I. du Pont de Nemours and Company or its affiliates..",
+        "business_entity_confidence": 0.9987860321998596
+    }
+]

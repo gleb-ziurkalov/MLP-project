@@ -1,0 +1,428 @@
+[
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": "Keysight Technologies, Inc",
+        "business_entity_confidence": 0.9995187520980835
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "KEYSIGHT",
+        "business_entity_confidence": 0.9014165997505188
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "1400 Fountaingrove Parkway"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Santa Rosa, California 95403"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "TECHNOLOGIES",
+        "business_entity_confidence": 0.9527956247329712
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "www.keysight.com"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Last Updated: August 2022"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Keysight Technologies Statement on Restriction of Hazardous Substances",
+        "business_entity_confidence": 0.999016284942627
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "(RoHS) Directives"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": "Keysight Technologies, Inc. has a Quality Policy which includes a commitment to ensure that all of our products and.",
+        "business_entity_confidence": 0.9995760321617126
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": " solutions comply with applicable safety and regulatory requirements. In application of this policy, Keysight manages",
+        "business_entity_confidence": 0.9994075298309326
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "an extensive program to eliminate potentially harmful materials in its products while ensuring high product quality and"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "reliability. The majority of Keysight products meet the EU RoHS Directive Substance Restrictions. A few products",
+        "business_entity_confidence": 0.9948669672012329
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "were not converted; these products are noted on their product webpages and are not sold to countries that enforce"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "EU regulations.",
+        "business_entity_confidence": 0.9353883862495422
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "The European Union Restriction of Hazardous Substances (RoHS) Directive 2011/65/EU, and all amendments",
+        "business_entity_confidence": 0.9920995235443115
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "restricts the use of ten substances in electrical and electronic products: Lead (Pb), Mercury (Hg), Cadmium (Cd)"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Hexavalent chromium (Cr Vl), Polybrominated biphenyls (PBBs), Polybrominated diphenyl ethers (PBDEs), Bis(2-"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "ethylhexyl) phthalate (DEHP), Butyl benzyl phthalate (BBP), Dibutyl phthalate (DBP) and Diisobutyl phthalate (DIBP)"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "EU RoHS exemptions are applied as appropriate. Keysight products are classified within the EU RoHS Directive",
+        "business_entity_confidence": 0.9582436680793762
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "category list as Industrial Monitoring and Control Equipment (category 9)."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "The present status for each of the ten RoHS substances is given below:"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "PBB and PBDE: The two groups of brominated flame retardants have been prohibited from use in Keysight products.",
+        "business_entity_confidence": 0.9887558817863464
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "since 2000."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Mercury and cadmium: Since 2o01, Keysight actively removed mercury and cadmium from our products",
+        "business_entity_confidence": 0.9972844123840332
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "and will continue to comply with EU RoHS requirements for these materials.",
+        "business_entity_confidence": 0.9645662307739258
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Hexavalent chromium: Since 2oo8, Keysight transitioned products that use hexavalent chrome finishes to.",
+        "business_entity_confidence": 0.9930974841117859
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "alternatives which have been fully evaluated to meet performance requirements for metallic anti-corrosion."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "and conductive shielding"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Lead: Keysight transitioned to the use of industry accepted and tested lead-free solders starting in 2o07 with",
+        "business_entity_confidence": 0.9932568073272705
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "completion by July 2017."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "DEHP, BBP, DBP and DIBP: Keysight's EU RoHS-compliant products meet the restrictions on these",
+        "business_entity_confidence": 0.9989498257637024
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 1,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "phthalates from March 1, 2021. This reflects the changes made to 2011/65/EU by Delegated Directive"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "(EU) 2015/863 to add these substance restrictions for industrial monitoring and control equipment from",
+        "business_entity_confidence": 0.9948469400405884
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 1,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "July 22, 2021."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Keysight works closely with supply chain partners to assure compliance to restricted material requirements of al",
+        "business_entity_confidence": 0.9982670545578003
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "products and materials supplied by partners. Keysight has ensured these changes maintain a high level of quality",
+        "business_entity_confidence": 0.9977704286575317
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "and long-term reliability."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Other regulations: Keysight electronic measurement products manufactured from March 1, 2o07, are labelled to",
+        "business_entity_confidence": 0.9864004850387573
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "comply with China's Management Methods for Control of Pollution from Electronic Information Products (\"China",
+        "business_entity_confidence": 0.9553589820861816
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "RoHS\") - including information inserts on use of hazardous substances and packaging marking. Keysight products"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "are out of scope of RoHS directives from Taiwan, Turkey, the Eurasian Economic Union, and Korea. Accessories",
+        "business_entity_confidence": 0.9993652701377869
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "that are in scope of Taiwan BSMI RoHS have appropriate markings.",
+        "business_entity_confidence": 0.9920588731765747
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "For more information about Keysight's Corporate Social Responsibility (CsR) program, please visit our web site at",
+        "business_entity_confidence": 0.9991369843482971
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "www.keysight.com/go/csr."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Robert Tait,"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Product Environmental and Regulatory Compliance Director"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": "Keysight Technologies, Inc.",
+        "business_entity_confidence": 0.9995856881141663
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "This statement applies to Keysight operations worldwide. Printed copies of this document are uncontrolled.",
+        "business_entity_confidence": 0.9993345141410828
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": " Page 1 of 1"
+    }
+]

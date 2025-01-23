@@ -1,0 +1,533 @@
+[
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": " Columbia Research Laboratories, Inc.",
+        "business_entity_confidence": 0.9995831847190857
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "1925 MacDade Blvd. Woodlyn, PA 19094 1-800-813-8471 / fax: 610-872-3882 / email: sales@crlsensors.com",
+        "business_entity_confidence": 0.9823160767555237
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "www.crlsensors.com"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "RoHS and REACH Compliance Declaration (January 2023)",
+        "business_entity_confidence": 0.9026209712028503
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": "Dear valued Columbia Research Labs, Inc. customer,.",
+        "business_entity_confidence": 0.9996465444564819
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": "Columbia Research labs, Inc. (hereafter referred to as CRL) is dedicated to serving you by providing high quality",
+        "business_entity_confidence": 0.9995878338813782
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "electronic sensing products that meet environmental regulations, including RoHs 2 (Restrictions of Hazardous."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Substance) Directive, EU Directive 2011/65/EU (and subsequent amendments), the People's Republic of China"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "requirements for concentration limits of certain hazardous substances in Electronic Information Products (China",
+        "business_entity_confidence": 0.9949585795402527
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "RohS 2-"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Standard SJ/T 1136-2014}, and REACH (Registration, Authorization and Restriction of Chemicals, European Union",
+        "business_entity_confidence": 0.9989697933197021
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Regulation (EC} 1907/2006}. We are providing you the following information to assist you in meeting your",
+        "business_entity_confidence": 0.9805408120155334
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "environmental policies and procedures."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "All parts that CRL supplies may contain hazardous materials below the threshold in RoHS and REAcH legislation."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "The environmental regulations change constantly. We will try our best to keep you abreast of changes that affect"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "CRL"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "products by periodically updating this letter. Please refer to the current version of this letter on."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "www.crlsensors.com."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "RoHS Compliance",
+        "business_entity_confidence": 0.9950193166732788
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "CRL has been producing parts that are RoHS compliant for the last several years..",
+        "business_entity_confidence": 0.932725727558136
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "A majority of CRL products are RoHS compliant"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "RoHs cOMPLIANT means that the substances restricted by the RoHS Directive (EU Directive 2002/95/EC and",
+        "business_entity_confidence": 0.9276796579360962
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "subsequent"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "amendments) are not contained in a finished product above the threshold limits unless the restrictive substance is"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "subject of an exemption contained in the RoHs Directive. CRL cannot guarantee that inventory held by the",
+        "business_entity_confidence": 0.894061803817749
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "distributors or other third parties is RoHS compliant..",
+        "business_entity_confidence": 0.9929392337799072
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Military and certain CRL customers require parts that are not RoHS compliant. CRL produces these parts but-their"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "manufacturing, storage, and handling is completely segregated from the RoHS compliant parts to minimize."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "contamination of the RoHS compliant products.",
+        "business_entity_confidence": 0.9220274686813354
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "The compliance of CRL products with RoHS is affected through:",
+        "business_entity_confidence": 0.9877728819847107
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Strictly controlling the materials and finishes that are used in our products.."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Periodic audits of our suppliers to ensure compliance.."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Periodic analysis, on an as-needed basis, of our products.."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Form 400"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "01/2023"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": " Columbia Research Laboratories Inc.",
+        "business_entity_confidence": 0.9996205568313599
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "1925 MacDade Blvd. Woodlyn, PA 19094 1-800-813-8471 / fax: 610-872-3882 / email: sales@crlsensors.com",
+        "business_entity_confidence": 0.9823160767555237
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "www.crlsensors.com"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "REACH Compliance"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "In June 2007, the European Union Regulation (EC) 1907/2006 concerning the Registration, Evaluation,.",
+        "business_entity_confidence": 0.9871349930763245
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Authorization and Restriction of Chemicals (REAcH) entered into force. This regulation establishes"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "specific duties and obligations on companies in the European Union (EU) that manufacture or import",
+        "business_entity_confidence": 0.9987772107124329
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "substances on their own, in preparations, or in articles.."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Under the structure of the REAcH Regulation, CRL is a manufacturer and supplier of \"articles\" to our EU",
+        "business_entity_confidence": 0.9954591989517212
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Customers. We do not manufacture, or supply \"substances\" or \"preparations\" and our articles do not"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "involve the \"intentional release of substances\". Accordingly, we foresee no registration or pre-."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "registration requirement for the products we supply to you.."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": " CRL believes that even though REAcH is an EU regulation, the CRL products are affected in all",
+        "business_entity_confidence": 0.9642351865768433
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "geographical regions. Therefore, CRL has done its due diligence to implement REAcH on a.",
+        "business_entity_confidence": 0.9714435338973999
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "worldwide basis."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "CRL is constantly monitoring the substance of very high concern (SVHC), as defined by REACH, in",
+        "business_entity_confidence": 0.9319098591804504
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "our products. This will be an on-going process since the complete list of SVHC's will be released.",
+        "business_entity_confidence": 0.9986563920974731
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "in stages."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Customers are encouraged to visit the following site to get the most up-to-date information on"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "current lists of SVHC's under REACH: https://echa.europa.eu/canidate-list-table.",
+        "business_entity_confidence": 0.9991859793663025
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "All of CRL products (articles) do not contain substances of very high concern (SVHC) above the"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "threshold value declared as per ECHA (as of June 10,2022 listing.",
+        "business_entity_confidence": 0.9954812526702881
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "We thank you for your continued support and understanding.."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Jeff Hteller"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Jeff Heller"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "President, Columbia Research Laboratories",
+        "business_entity_confidence": 0.9995335340499878
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Form 400"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "01/2023"
+    }
+]

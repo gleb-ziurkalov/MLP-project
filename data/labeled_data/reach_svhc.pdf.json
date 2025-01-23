@@ -1,0 +1,247 @@
+[
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Samtec",
+        "business_entity_confidence": 0.9952813982963562
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "520 Park East Blvd.New AlbanyIN 47151-1147 USA",
+        "business_entity_confidence": 0.9071290493011475
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Phone:812)944-6733Fax:(812)948-5047"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Internet:http://www.samtec.com"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "REACH Compliance Statement"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Dear Customer:"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "In December 2o06, the European Union promulgated legislation relating to the Registration, Evaluation.",
+        "business_entity_confidence": 0.9994819760322571
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Authorisation, and Restriction of Chemicals, commonly known as \"REACH\". This legislation was effective"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 1,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "June 1, 2007, and implemented over the following decade in a phased approach. The goal of REAcH is to"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "improve the protection of human health and the environment by identification of the intrinsic properties"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "of chemical substances."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "REACH authorizes the European Chemicals Agency (\"ECHA\") to publish a list of substances which are",
+        "business_entity_confidence": 0.9988873600959778
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "considered a Substance of Very High Concern (\"svHc\"). Designation as a SVHC may result in certain"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "notification and/or registration obligations for manufacturers, including, but not limited to, notification"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "to customers of the presence of the SvHc in a product."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Please be advised that some products"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "manufactured and sold by Samtec may contain a svHc in an amount equal to or greater than the",
+        "business_entity_confidence": 0.988734245300293
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "notification threshold of 0.1% of the weight of a particular product.Samtec will identify such products by",
+        "business_entity_confidence": 0.998784601688385
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "including a reference to REAcH on the environmental compliance label affixed to the product packaging."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "To obtain additional environmental compliance information for Samtec products, you may visit the",
+        "business_entity_confidence": 0.9968228340148926
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "following web page: https://www.samtec.com/"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Consistent with REAcH, Samtec endeavors to promote the responsible manufacturing, use, and handling",
+        "business_entity_confidence": 0.9975245594978333
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "of chemicals. Samtec will not place into the European Union market any products which contain",
+        "business_entity_confidence": 0.999426007270813
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "substances found on the Authorisation List published by ECHA, or any substances otherwise restricted",
+        "business_entity_confidence": 0.9989835619926453
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "under REACH without appropriate compliance measures."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "If you have any questions or concerns, please contact the Samtec Product Environmental Compliance",
+        "business_entity_confidence": 0.9897627830505371
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": "Group via email at PEC@samtec.com. We will be pleased to address any open issues.",
+        "business_entity_confidence": 0.9985438585281372
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Thank you for your continued interest in Samtec products.",
+        "business_entity_confidence": 0.9724512100219727
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Respectfully,"
+    }
+]

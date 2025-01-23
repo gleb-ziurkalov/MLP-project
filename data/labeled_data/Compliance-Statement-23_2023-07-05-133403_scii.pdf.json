@@ -1,0 +1,857 @@
+[
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Rowmark"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "/Manufacturer's Statement of Compliance"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Rowmark is committed to ensuring the highest level of compliance across the many standards that govern various",
+        "business_entity_confidence": 0.906606137752533
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "industry management systems. This statement is provided in response to requests by contractors, designers and end"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "users of Rowmark manufactured sheet materials for regulatory compliance information.",
+        "business_entity_confidence": 0.9646827578544617
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Please note that Rowmark does not routinely analyze for additional substances that are not listed in our SDS documents.",
+        "business_entity_confidence": 0.9818467497825623
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Unless otherwise indicated, the information provided is based on information from raw material suppliers, product"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "composition and Rowmark's manufacturing process. Information on any OSHA hazardous components above 1% (by",
+        "business_entity_confidence": 0.9989888072013855
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "weight) and carcinogens above 0.1% (by weight) is provided in Section 3 of Rowmark's Safety Data Sheets (SDS).",
+        "business_entity_confidence": 0.8793246746063232
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Be advised that this document pertains strictly to Rowmark sheet manufactured in our facility in the United States."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "California Proposition 65."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Proposition 65, the Safe Drinking Water and Toxic Enforcement Act of 1986, was enacted as a ballot initiative in"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "November 1986. The Proposition was intended by its authors to protect California citizens and the state's drinking water"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "sources from chemicals known to cause cancer, birth defects or other reproductive harm, and to inform citizens about"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "exposures to such chemicals. This directive is administered by CA-EPA Office of Environmental Health Hazard",
+        "business_entity_confidence": 0.9967801570892334
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Assessment (OEHHA).",
+        "business_entity_confidence": 0.9572584629058838
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "The law requires that no person in the course of doing business intentionally expose an individual to a chemical known to."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "the state of California to cause cancer or reproductive toxicity without giving a clear and reasonable warning. The"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Proposition 65 chemical list can be found at: https://oehha.ca.gov/proposition-65/proposition-65-list."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Rowmark is committed to providing safe, high quality products to all customers. Some products manufactured by",
+        "business_entity_confidence": 0.9900049567222595
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Rowmark may contain chemicals identified on this list in permissible exposure limits (PEL). Exposure levels are generally"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "expressed as a daily exposure level and not as a concentration by weight of a product. Exposure levels are influenced by"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "many factors including the intended use or application for the product. In some cases, testing and risk assessment may"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "be required to establish acceptable exposure levels for certain applications and uses. Consumer products which can be"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "demonstrated to have exposures less than the safe harbor level for specific chemicals, may not require labeling. Due to."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "the presence of styrene, a Prop 65 listed chemical in Rowmark materials, Rowmark does label our sheet shipment cases.",
+        "business_entity_confidence": 0.9838821887969971
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "to our distributors with the following warning.."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Warning: This product contains chemicals including styrene, which is known to the State of California to"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "cause cancer or other harm. For additional information, go to www.p65warnings.ca.govl."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "If your company is using Rowmark materials as a component in a product to be delivered to consumers in California,"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Rowmark recommends you determine whether the warning requirements apply. Your company is solely responsible for",
+        "business_entity_confidence": 0.973653256893158
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "determining whether your finished product needs to be labeled in compliance with Prop 65.."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Polybrominated Diphenyl Ethers (PBDEs) flame retardant chemicals."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "PBDEs, also called \"brominated flame retardants\" are a group of flame retardant chemicals that are added to foam"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "padding, plastics, and fabrics. Common PBDEs are pentaBDE (five bromine molecules), octaBDE (eight bromine"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "molecules) and decaBDE (ten bromine molecules). Based on a review of our manufacturing process, specifications of raw."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "materials and final product composition Rowmark materials are not known or expected to contain any of the referenced"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "PBDE chemicals.",
+        "business_entity_confidence": 0.8860113024711609
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "All information is offered in good faith however no warranty is given or implied.."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "www.rowmark.com | samples@rowmark.com"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "For technical assistance call 877.769.6275 or email techhelp@rowmark.com"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "ISO 9001:2015 Certified"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Rowmark"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Restriction of Hazardous Substances (RoHS 3)."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Rowmark manufactured sheet materials are RoHS compliant with the European Union Directive 2002/95/EC for",
+        "business_entity_confidence": 0.8746190071105957
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Restriction of Hazardous Substances (RoHS), the revised Directive 2011/65/EC (RoHS 2) and the latest amendment"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Directive (EU) 2015/863 (RoHS 3) and as such does not contain: lead, mercury, hexavalent chromium, polybrominated"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "biphenyls (PBB), polybrominated diphenyl ethers (PBDE), other polybrominated compound present in the product to a"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "level equal to or less than 0.1% by weight. It further restricts the concentration of cadmium present in the product to a"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "level equal to or less than 0.01% by weight.."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Based on the final product composition and the specifications of the raw materials, no RoHS 3 substances are known or."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "expected to be present in Rowmark materials.."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "REACH - Substance of Very High Concern (SVHC-235)"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "In accordance with Article 59 of the European Regulation 1907/2006 on Registration, Evaluation, Authorization and"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Restriction of Chemicals (REACH), periodically the European Chemicals Agency (ECHA) publishes lists identifying",
+        "business_entity_confidence": 0.9989030361175537
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "substances of very high concern (SVHC) as defined in Article 57 of REACH and include in the REACH \"Candidate List'"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "for further regulation."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Based on our final product composition and the specifications of the raw materials, Rowmark manufactured sheet is not"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "known to contain substances at greater than 0.1% (reporting threshold) which are identified on the full list of 235 SVHC"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Candidate List substances Jan. 2023 candidate list.."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Volatile Organic Compounds (VOCs)"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "In the Clean Air Act, 40 Code of Federal Regulations Section 51.100, the Environmental Protection Agency (EPA) defines",
+        "business_entity_confidence": 0.9988343119621277
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "a VOC as any compound of carbon excluding carbon monoxide, carbonic acid, metallic carbides or carbonates and",
+        "business_entity_confidence": 0.9634802341461182
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "ammonium carbonate, which participates in atmospheric photochemical reaction. EPA has excluded many compounds",
+        "business_entity_confidence": 0.9984360337257385
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "which have been determined to have negligible photochemical reactivity such as: ethane, methane, methylene chloride,"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "methyl chloroform, perchloroethylene, acetone, and numerous fluorochemicals. Water is not considered a VOc. Rowmark."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "recommends review of State and Federal regulations to determine if a more restrictive requirement exists regarding"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "analytical methods or chemical exclusions during the consideration of VOc content."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Based on the final product composition and the specifications of the raw materials, Rowmark sheet materials are not"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "known or expected to contain substances identified as VOCs."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Conflict Minerals (CRMT)"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 1,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "On August 22, 2012, the U.S. Securities and Exchange Commission (\"SEC\") issued the final conflict minerals rule under",
+        "business_entity_confidence": 0.9988417029380798
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Section 1502 the Dodd-Frank Wall Street Reform and Consumer Protection Act (the \"Conflict Minerals Rule\"). The"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Conflict Minerals Rule requires companies to report annually the presence of conflict minerals (tin, tungsten, tantalum and"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "gold, or \"3TG\") originating in the Democratic Republic of the Congo or adjoining countries (\"Covered Countries\").."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Rowmark manufactured products do not contain conflict minerals, or to the extent they may indicate a trace amount, such"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "products are \"DRC conflict free\" as defined by paragraph (e)(4) of Section 1502."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Bisphenol A (BPA)"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "CAS#: 80-05-7 IUPAC name: 4,4'-dihydroxy-2,2-diphenylpropane. Based on a review of the final product composition",
+        "business_entity_confidence": 0.9252473711967468
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "and the specifications of the raw materials, Rowmark products are not known or expected to contain BPA."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "All information is offered in good faith however no warranty is given or implied"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "www.rowmark.com | samples@rowmark.com"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "For technical assistance call 877.769.6275 or email techhelp@rowmark.com"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "ISO 9001:2015 Certified"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Rowmark"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Phthalates",
+        "business_entity_confidence": 0.9116518497467041
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Substances in this review: Bis(2-ethylhexyl)phthalate (DEHP), Dibutyl phthalate (DBP), benzyl butyl phthalate (BBP)"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Diisononyl Phthalate (DINP), Diisodecyl phthalate (DIDP), Di-n-octyl phthalate (DnOP) or Di-n-hexl phthalate (DnHP)"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Based on our final product compositions and the specifications of the raw materials, Rowmark sheet is not known or"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "expected to contain substances that are identified as Phthalates."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Disclaimer: Rowmark is committed to excellence in product, performance and service in accordance with our ISo 9o01;2008.",
+        "business_entity_confidence": 0.8647741079330444
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "certification. This information is provided based on internal audits, information from raw material suppliers, product"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "composition, Rowmark's manufacturing process and is revised as regulations change. The information contained in this",
+        "business_entity_confidence": 0.9976512789726257
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "document is being provided for informational purposes only and to clarify certain information regarding Rowmark's products.",
+        "business_entity_confidence": 0.9970791339874268
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Nothing provided in this statement is (i) a representation, an express or implied warranty, or an agreement to indemnification"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "by Rowmark, (ii) a statement which may form the basis of reliance by Rowmark, (ii) a modification of any term or conditions"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "of sale agreed to between Rowmark and its customers.",
+        "business_entity_confidence": 0.9968974590301514
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Sincerely,"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Eric Hausserman"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "COO - Chief Operations Officer"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "All information is offered in good faith however no warranty is given or implied"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "www.rowmark.com | samples@rowmark.com"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "For technical assistance call 877.769.6275 or email techhelp@rowmark.com"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "ISO 9001:2015 Certified"
+    }
+]

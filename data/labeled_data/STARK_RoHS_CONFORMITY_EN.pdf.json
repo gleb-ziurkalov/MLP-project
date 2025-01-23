@@ -1,0 +1,389 @@
+[
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "RoHS",
+        "business_entity_confidence": 0.9974445104598999
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "STPRK"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "COMPLIANT"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "ELEKTROMOTOREN",
+        "business_entity_confidence": 0.9878038167953491
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Selbstauskunft Compliance RoHs II III",
+        "business_entity_confidence": 0.9918221831321716
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Company statement Compliance RoHS",
+        "business_entity_confidence": 0.9884629845619202
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Verbot von gefahrlichen Stoffen in Elektro- und Elektronikgeraten"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Prohibition of dangerous substances in electrical and electronic equipment"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Wir/We"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": "STARK Cooperation GmbH.",
+        "business_entity_confidence": 0.998842179775238
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Lenzburgerstrasse 30 | 5600 Ammerswil | Switzerland",
+        "business_entity_confidence": 0.9568561911582947
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "bestatigen, dass alle unsere STARK Produkte konform zur EU RoHS-Richtlinie \"RoHS II\" 2011/65/EU (Recast."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "2002/95/EG) und der mitgeltenden Delegierten Richtlinie (EU) 2015/863 (,RoHS III\") produziert werden. Unsere STARK-",
+        "business_entity_confidence": 0.9962294697761536
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Produkte sind ebenfalls konform zu den \"China-RoHS II\"-Stoff-beschrankungen und \"China-RoHS II\"-Grenzwerten (zur"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "EU-RoHs Il identisch). Es werden keine Ausnahmen benutzt.",
+        "business_entity_confidence": 0.9918518662452698
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Die RoHS-Stoffbeschrankungen betreffen Blei, Quecksilber, Cadmium, Cr(VI), PBB, PBDE incl. Verbot DecaBDE, sowie",
+        "business_entity_confidence": 0.9493837952613831
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "DEHP, BBP, DBP and DIBP (2015-863-EU, ,RoHS 3\").",
+        "business_entity_confidence": 0.961521327495575
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Die STARK RoHS-Konformitat gilt ebenfalls fur kundenspezifische Ausfuhrungen. Diese Bestatigung gilt fur alle STARK-"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Niederlassungen weltweit."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "STARK stehen auch im engen Kontakt mit seinen Vorlieferanten bezuglich der Informationsbeschaffung zu gefahrlichen"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Stoffen gemaB RoHs Richtlinie. Nach unserem jetzigen Kenntnisstand, sowie gemalB der uns vorliegenden"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Informationen gehen wir davon aus, dass unsere Standardprodukte entsprechend der aktuellen Version der RoHS-."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Richtlinie (EU Richtlinie 2002/95/EG, 2011/65/EU ,R0HS 2\", 2015-863-EU) sowie den gultigen Anforderungen in"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Verkehr gebracht werden. Fur Produkte, die nicht RoHS konform sind, wird dies in der Auftragsbestatigung vermerkt."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "confirm that all our STARK products are manufactured in compliance with the EU RoHS Directive \"RoHs II\"."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "2011/65/EU (Recast 2002/95/EG) and the further applicable Delegated Directive 2015/863/EU (\"RoHS III\"). Our"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "STARK products also comply with the China RoHS II substance list / China RoHS II threshold limit values, which are the"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "same as EU RoHS2. There are no exemptions in use."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "The RoHS restricted substances are Lead, Mercury, Cadmium, Cr(Vl), PBB, PBDE including the prohibition of DecaBDE,",
+        "business_entity_confidence": 0.9961484670639038
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "as well as DEHP, BBP, DBP and DIBP(2015-863-EU, ,RoHS 3\")."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "STARK RoHS Compliance covers also customized products. This confirmation applies to all STARK subsidiaries.",
+        "business_entity_confidence": 0.9205900430679321
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "worldwide."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "STARK is also in close contact with their upstream suppliers regarding the procurement of information on hazardous",
+        "business_entity_confidence": 0.9911961555480957
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "substances in accordance with the RoHs directive. According to our current level of knowledge and the information"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "available to us, we assume that our standard products comply with the current version of the RoHs directive (EU",
+        "business_entity_confidence": 0.9773997664451599
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "directive 2002/95 / EG, 2011/65 / EU \"R0HS 2\", 2015-863- EU) as well as the applicable requirements. For products"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "that do not conform to RoHs, this will be noted in the order confirmation."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Mahmut Karademir, CEO"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 1,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Ammerswil/Switzerland, 16.01.2020"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": "STARK Cooperation GmbH",
+        "business_entity_confidence": 0.9988056421279907
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "ABC",
+        "business_entity_confidence": 0.998847484588623
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Lenzburgerstrasse 30 |CH-5600 Ammerswil | Switzerland",
+        "business_entity_confidence": 0.9383893609046936
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "www.stark-elektromotoren.com"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "ROUF",
+        "business_entity_confidence": 0.8549790382385254
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "www.starkdrivesystems.com"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Stark RoHS DE_ENG_2020V1",
+        "business_entity_confidence": 0.9893544912338257
+    }
+]

@@ -1,0 +1,252 @@
+[
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "YAGEO",
+        "business_entity_confidence": 0.9900293946266174
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "KEMET",
+        "business_entity_confidence": 0.9988391995429993
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Declaration"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Persistent, Bioaccumulative, and Toxic (PBT) Chemicals"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "BUSINESS CONFIDENTIAL"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "December 2024"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "As required under the Toxic Substances Control Act (TscA)', as amended by the Frank R. Lautenberg Chemical Safety for"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 1,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "the 21st Century Act, the Environmental Protection Agency (EPA) issued five (5) final rules on January 6, 2021 to reduce",
+        "business_entity_confidence": 0.9990346431732178
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "exposures to certain chemicals that are persistent, bioaccumulative and toxic (PBT)' (the \"Rules'). These chemicals build"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "up in the environment over time and may result in potential risk to exposed populations, including the general"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "population, consumers and commercial users, and susceptible subpopulations (such as workers, subsistence fishers,"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "tribes and children)."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "The Rules limit or prohibit the manufacture (including import), processing, and/or distribution in commerce (including"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "within articles) of the following PBT chemicals:"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": ". Decabromodiphenyl ether (DecaBDE)"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": " Phenol, Isopropylated Phosphate 3:1 (PIP 3:1)"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": " 2, 4, 6-tris(tert-butyl)phenol (2, 4, 6-TTBP)"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": ". Hexachlorobutadiene (HCBD)",
+        "business_entity_confidence": 0.8930500149726868
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": ". Pentachlorothiophenol (PCTP)"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 1,
+        "text": "KEMET Electronics Corporation (KEMET) certifies that it is compliant with the requirements of TsCA regarding the five (5)",
+        "business_entity_confidence": 0.9994716048240662
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "PBT chemicals listed above and that none of the above-mentioned chemicals are intentionally used or added to our"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "products"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "This Declaration is based upon information provided to us by our suppliers of raw materials and/or components used in"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "the manufacture of KEMET's products..",
+        "business_entity_confidence": 0.9989641904830933
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "This Declaration does not apply to products manufactured by The Forest Electric Company (FELcO). For TscA inquiries",
+        "business_entity_confidence": 0.9956731200218201
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "related to FELCO products, please contact Alan.Spindler@yageo.com.",
+        "business_entity_confidence": 0.9582459926605225
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "For all TSCA inquiries related to KEMET's products, please contact RoHs@yageo.com.",
+        "business_entity_confidence": 0.9986327290534973
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "1 Us Code of Federal Regulations title 40, part 751 - US Toxic Substances Control Act:"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": null,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "https://www.ecfr.gov/cgi-bin/text-idx?node=pt40.34.751&rgn=div5"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "2 TscA PBT restrictions final rules: https://www.epa.gov/assessing-and-managing-chemicals-under-tsca/persistent-bioaccumulative-and-toxic-pbt-chemicals-under",
+        "business_entity_confidence": 0.9550068378448486
+    }
+]

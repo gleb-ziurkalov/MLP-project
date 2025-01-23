@@ -1,0 +1,298 @@
+[
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "G"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "lencir."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "European Union Directives relating to",
+        "business_entity_confidence": 0.9984779953956604
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Restriction of the use of certain Hazardous Substances."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "in electrical and electronic equipment (RoHS) and."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Waste Electrical and Electronic Equipment (WEEE)"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "August 2021"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "The Restriction of the use of certain Hazardous Substances in electrical and electronic equipment."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "(RoHS) (Directive 2002/95/EC, Directive 2011/65/EU, and Directive EU 2015/863) states that",
+        "business_entity_confidence": 0.863542377948761
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "certain types of equipment, primarily medical and consumer electronic products such as"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "appliances, personal computers, toys, and cell phones, shall not contain specified \"hazardous"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "substances\"'. Glenair does not produce OEM products of this type. Nonetheless, some Glenair",
+        "business_entity_confidence": 0.9983265995979309
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "customers request information regarding the RoHS status of Glenair parts.",
+        "business_entity_confidence": 0.9809268712997437
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "The two primary categories where RoHS substances may be found are finish treatments and",
+        "business_entity_confidence": 0.8727697134017944
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "leaded solders. Note that RoHS substances may be found in other components used in"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "production, but that the two aforementioned categories constitute the majority of these instances"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "In many cases, finish treatments that include RoHS controlled substances are required under",
+        "business_entity_confidence": 0.8774150013923645
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "governmental and customer specifications. Glenair part numbers contain a broad range of finish.",
+        "business_entity_confidence": 0.9978739023208618
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "treatment ordering codes-customers can easily specify finish treatments that do not contain."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "RoHS controlled substances. Some of these finish treatment choices include electroless nickel,.",
+        "business_entity_confidence": 0.9103244543075562
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "anodize, and passivated stainless steel.."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Some product categories use leaded solders, such as Glenair's metal-core conduit product line,",
+        "business_entity_confidence": 0.9991004467010498
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "wire terminations, and tin-dip contacts. Glenair will use substitutes as they are proven reliable",
+        "business_entity_confidence": 0.998005211353302
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "and as governmental and customer specifications permit. For example, Micro-D connectors can"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "be ordered with either tin-lead solder-dipped contacts or RoHS compliant gold plating."
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Certain exemptions under RoHS regarding specific applications of the restricted substances are",
+        "business_entity_confidence": 0.9968430995941162
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "relevant to Glenair products that contain these substances..",
+        "business_entity_confidence": 0.99835604429245
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Glenair has also conducted a careful review of the defined scope and the list of products in the",
+        "business_entity_confidence": 0.999208390712738
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Annexes of the directives covering Waste Electrical and Electronic Equipment (WEEE)"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "(Directive 2002/96/EC and Directive 2012/19/EU). Based on this review, Glenair does not",
+        "business_entity_confidence": 0.982682466506958
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "design, manufacture, or sell products subject to the WEEE directive."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": "Glenair Inc.",
+        "business_entity_confidence": 0.9996201992034912
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "1211 Air Way, Glendale, CA 91201-2497.Tel (818) 247-6000:Fax (818) 500-9912."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "www.Glenair.com",
+        "business_entity_confidence": 0.9864374399185181
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "United States . United Kingdom . Germany . France . Nordic . Italy . South Korea"
+    }
+]

@@ -1,0 +1,293 @@
+[
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": "Sigatek LLC",
+        "business_entity_confidence": 0.9993821382522583
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Reach Compliance Statement: ECHA/NR/24/01",
+        "business_entity_confidence": 0.9937983155250549
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "REACH COMPLIANCE STATEMENT REACH (Registration, Evaluation, Authorization and"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Restriction of Chemicals) is a European Union Commission (EuC) Regulation on chemicals and",
+        "business_entity_confidence": 0.9900543689727783
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 1,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "their safe use. The REACH regulations became effective on June 1, 2007.."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "REACH establishes specific duties and obligations on a business in the European Union (EU)",
+        "business_entity_confidence": 0.9988603591918945
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "which manufactures or imports a substance or article that includes a \"substance of very high"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "concern' (SVHC) in concentrations of more than 0.1% w/w. A substance which is listed on the"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "\"Authorisation List\" published by the European Chemicals Agency (ECHA) dated.",
+        "business_entity_confidence": 0.9987192153930664
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "ECHA/NR/24/01 cannot be manufactured or imported in the EU after a fixed date unless the",
+        "business_entity_confidence": 0.9880958795547485
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "ECHA authorizes the use of the substance for a specific use or uses.",
+        "business_entity_confidence": 0.9993422627449036
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Further, the use of substances listed in ECHA/NR/24/01 of the REACH Regulations are banned",
+        "business_entity_confidence": 0.9168908596038818
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "in all articles or substances produced or imported in the EC except to the extent that the use",
+        "business_entity_confidence": 0.9984902143478394
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "complies with the specific restrictions contained in ECHA/NR/24/01.",
+        "business_entity_confidence": 0.9392455816268921
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 1,
+        "text": "Although not required to directly register any of its products with the ECHA, Sigatek LLC is",
+        "business_entity_confidence": 0.9992210865020752
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "committed to assisting its customers in their efforts to comply with REACH. To that end"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": "Sigatek LLC has reviewed the formulations of ALL products listed on the website.",
+        "business_entity_confidence": 0.9994068145751953
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": "So, upon review of the formulations of these products and to Sigatek LLC knowledge:.",
+        "business_entity_confidence": 0.9993994235992432
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "A- Its products do not currently contain substances listed on the Candidate List of Substances of"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Very High Concern or the Authorisation List dated ECHA/NR/24/01, both as published by the",
+        "business_entity_confidence": 0.896727979183197
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "ECHA on its website on the date of this statement, in excess of the applicable legal thresholds..",
+        "business_entity_confidence": 0.9995185136795044
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "B- All substances contained in its products are currently in substantial compliance with the"
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "current conditions and restrictions of ECHA/NR/24/01 of the REACH regulations..",
+        "business_entity_confidence": 0.9671124815940857
+    },
+    {
+        "compliance_statement": 1,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 1,
+        "text": "Sigatek LLC will endeavor to appropriately update or modify this REACH Compliance Statement.",
+        "business_entity_confidence": 0.999388575553894
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 1,
+        "text": "should any changes occur in the composition of Sigatek LLC products or the REACH",
+        "business_entity_confidence": 0.9993454813957214
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "regulations, including the addition of any substances to the SVHC ECHA/NR/24/01"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Candidate List."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 1,
+        "text": "Sigatek REACH declaration is stated on March 1st, 2024."
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Michael Chilimintris"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 1,
+        "date": 0,
+        "business_entity": 1,
+        "regulation": 0,
+        "text": "SigaTek LLC",
+        "business_entity_confidence": 0.999445378780365
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "423 Black Oak Ridge Rd., Wayne, NJ 07470"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Phone (973) 706-8475 Fax (973) 832-4435"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Email: sales@sigatek.com"
+    },
+    {
+        "compliance_statement": 0,
+        "compliance_data": 0,
+        "date": 0,
+        "business_entity": 0,
+        "regulation": 0,
+        "text": "Website: www.sigatek.com"
+    }
+]
