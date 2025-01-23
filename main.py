@@ -1,22 +1,28 @@
 import os
 import json
 import numpy as np
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-from sources.pdf_processing import pdf_to_tdata, pdf_to_text
-from sources.text_preprocessor import preprocess_doc
-from sources.data_labeler import label_data
-from sources.model_trainer import train_model
+from sources_refactor.pdf_processing import pdf_to_tdata, pdf_to_text, pdf_to_image, image_to_text, classify_lines
+# from sources_refactor.text_preprocessor import preprocess_doc
+from sources_refactor.data_labeler import label_data
+# from sources_refactor.model_trainer import train_model
 
-PDF_STATEMENTS_DIR = "./data/pdf_statements/"
+TRAINING_PDF_DIR   = "./data/pdf_statements/"
 LABELED_DATA_DIR   = "./data/labeled_data/"
 INPUT_PDF_DIR      = "./data/input_pdf/"
+OUTPUT_JSON_DIR    = "./data/output_JSON/"
 
 TRAINED_MODEL_DIR  = "./data/trained_model/"
-FINAL_MODEL_DIR  = "./data/final_model/"
+FINAL_MODEL_DIR  = "./data/models/block_classification_oversampled/"
 
 
-TFILES = os.listdir(PDF_STATEMENTS_DIR)
-SFILES = os.listdir(INPUT_PDF_DIR)
+TRAIN_FILES = os.listdir(TRAINING_PDF_DIR)
+INPUT_FILES = os.listdir(INPUT_PDF_DIR)
+
+
+MODEL = AutoModelForSequenceClassification.from_pretrained(FINAL_MODEL_DIR)
+TOKENIZER = AutoTokenizer.from_pretrained(FINAL_MODEL_DIR)
 
 def default_handler(obj):
     if isinstance(obj, np.floating):
@@ -36,10 +42,15 @@ def label_doc(text):
 
     return labeled_data
 
+def json_print(json_path, data, mod):
+    output_path = os.path.join(f"{json_path}_{mod}.json")
+    with open(output_path, "w") as f:
+        json.dump(data, f, indent=4, default=default_handler)
+
 def process_tdata(files):
     for entry in files:
         
-        file_path = os.path.join(PDF_STATEMENTS_DIR, entry)
+        file_path = os.path.join(TRAINING_PDF_DIR, entry)
         dataset_raw = pdf_to_tdata(file_path)
 
         # dataset_prep = preprocess_doc(dataset_raw)
@@ -51,22 +62,58 @@ def process_tdata(files):
         with open(training_dataset_path, "w") as f:
             json.dump(dataset_labeled, f, indent=4, default=default_handler)
 
-def process_statement(files):
-    for entry in files:
-        file_path = os.path.join(INPUT_PDF_DIR, entry)
-        compliance_processed = pdf_to_text(file_path, FINAL_MODEL_DIR)
+def process_statement(entry, model, tokenizer):
+    file_path = os.path.join(INPUT_PDF_DIR, entry)
+
+    # extracting text from pdf
+    pages = pdf_to_image(file_path)
+    text_lines = image_to_text(pages, model)
+    json_print(OUTPUT_JSON_DIR, text_lines, mod="text")
+    print("Text extracted")
         
-        print("Compliant Statements:")
-        for statement in compliance_processed:
-            print(statement)
+    # evaluating extracted text
+    print("Evaluating")
+    classified_lines = classify_lines(model, tokenizer, text_lines)
+    print("Evaluation complete")
+    compliance_processed = [line for line, label in classified_lines if label == 1]
+    
+    # printing the evaluated JSON
+    json_print(OUTPUT_JSON_DIR, compliance_processed,mod="eval")    
+    print("Report Printed")
+
+
+def process_statement_batch(files):
+    for entry in files:
+        process_statement(entry, model=MODEL, tokenizer=TOKENIZER)
+
 
 def main():
+    # model init
+    model=MODEL
+    tokenizer=TOKENIZER
 
-    # process_tdata(TFILES)
+    # getting first (and only) file from dir
+    file_path = os.path.join(INPUT_PDF_DIR, INPUT_FILES[0])
+
+    # extracting text from pdf file
+    pages = pdf_to_image(file_path)
+    text_lines = image_to_text(pages, model)
+    json_print(OUTPUT_JSON_DIR, text_lines, mod="text")
+    print("Text extracted")
+        
+    # evaluating extracted text
+    print("Evaluating")
+    classified_lines = classify_lines(model, tokenizer, text_lines)
+    compliance_processed = [line for line, label in classified_lines if label == 1]
+    print("Evaluation complete")
+    # printing the evaluated JSON
+    json_print(OUTPUT_JSON_DIR, compliance_processed, mod="eval")    
+    print("Report Printed")
+
+    
+    # process_tdata(TRAIN_FILES)
     # train_model(LABELED_DATA_DIR, FINAL_MODEL_DIR)
-
-    process_statement(INPUT_PDF_DIR)
-
+    # process_statement_batch(INPUT_FILES)
 
 if __name__ == "__main__":
     main()

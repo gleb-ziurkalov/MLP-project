@@ -6,10 +6,8 @@ from sklearn.model_selection import train_test_split
 from datasets import Dataset, DatasetDict
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 
-os.environ["TOKENIZERS_PARALLELISM"] = "false"
-
-# Prepare dataset with undersampling
-def prepare_undersampled_dataset(data_dir):
+# Prepare dataset with oversampling
+def prepare_oversampled_dataset(data_dir):
     texts, labels = [], []
 
     # Load data
@@ -20,16 +18,15 @@ def prepare_undersampled_dataset(data_dir):
                 texts.append(item["text"])
                 labels.append(item.get("compliance_statement", 0))
 
-    # Separate the majority and minority classes
+    # Separate majority and minority classes
     majority_class = [(t, l) for t, l in zip(texts, labels) if l == 0]
     minority_class = [(t, l) for t, l in zip(texts, labels) if l == 1]
 
-    # Undersample the majority class to match the minority class count
-    random.shuffle(majority_class)
-    majority_class = majority_class[:len(minority_class)]  # Match count
+    # Oversample the minority class to match the majority class size
+    oversampled_minority_class = random.choices(minority_class, k=len(majority_class))
 
-    # Combine the undersampled majority class with the minority class
-    balanced_data = majority_class + minority_class
+    # Combine the oversampled minority class with the majority class
+    balanced_data = majority_class + oversampled_minority_class
     random.shuffle(balanced_data)
 
     balanced_texts, balanced_labels = zip(*balanced_data)
@@ -49,8 +46,8 @@ def compute_metrics(eval_pred):
 
 # Train model
 def train_model(data_dir, output_dir, model_name="nlpaueb/legal-bert-base-uncased", epochs=3, batch_size=32):
-    # Prepare data with undersampling
-    texts, labels = prepare_undersampled_dataset(data_dir)
+    # Prepare data with oversampling
+    texts, labels = prepare_oversampled_dataset(data_dir)
     train_texts, val_texts, train_labels, val_labels = train_test_split(texts, labels, test_size=0.2, random_state=42)
 
     datasets = DatasetDict({
@@ -80,7 +77,7 @@ def train_model(data_dir, output_dir, model_name="nlpaueb/legal-bert-base-uncase
         logging_steps=10,
         load_best_model_at_end=True,
         metric_for_best_model="f1",
-        fp16=True,
+        fp16=True,  # Mixed precision
         gradient_accumulation_steps=2,
         dataloader_num_workers=4,
     )
@@ -97,8 +94,15 @@ def train_model(data_dir, output_dir, model_name="nlpaueb/legal-bert-base-uncase
 
     # Train and save model
     trainer.train()
-    
     trainer.save_model(output_dir)
     tokenizer.save_pretrained(output_dir)
+
+    # Evaluate the model on the validation set
+    eval_metrics = trainer.evaluate()
+    
+    # Save metrics to a JSON file
+    metrics_file_path = os.path.join(output_dir, "metrics.json")
+    with open(metrics_file_path, "w") as metrics_file:
+        json.dump(eval_metrics, metrics_file, indent=4)
 
     return trainer
