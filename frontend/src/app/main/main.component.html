@@ -21,8 +21,15 @@
     <main class="content">
       <!-- CompEval Section -->
       <div *ngIf="activeOption === 1">
-        <h1>Welcome to CompEval <span *ngIf="username">, {{ username }}</span> </h1>
-        <button class="upload-btn" (click)="triggerFileUpload(fileInput)">Upload Compliance Statement (PDF Only)</button>
+        <h1>Welcome to CompEval <span *ngIf="username">, {{ username }}</span></h1>
+        <button
+          class="upload-btn"
+          (click)="triggerFileUpload(fileInput)"
+          [disabled]="buttonStates.fileUpload"
+          [ngClass]="{ 'clicked-btn': buttonStates.fileUpload }"
+        >
+          Select Compliance Statement (PDF Only)
+        </button>
         <input
           #fileInput
           type="file"
@@ -30,23 +37,90 @@
           (change)="onFileSelected($event)"
           style="display: none"
         />
+      
         <!-- Error message -->
         <div *ngIf="errorMessage" class="error-message">
           {{ errorMessage }}
         </div>
-
+      
         <!-- File name and Evaluate button -->
         <div *ngIf="selectedFileName" class="file-info">
           <p>Selected file: {{ selectedFileName }}</p>
-          <button class="upload-btn" (click)="evaluateFile()">Evaluate</button>
+          <button
+            class="upload-btn"
+            (click)="uploadAndExtract(); disableButton('uploadAndExtract')"
+            [disabled]="!selectedFile || buttonStates.uploadAndExtract"
+            [ngClass]="{ 'clicked-btn': buttonStates.uploadAndExtract }"
+          >
+            Upload
+          </button>
+        </div>
+      
+        <div *ngIf="uploadExtractMsg" class="file-info">
+          <p>{{ uploadExtractMsg }}</p>
+        </div>
+      
+        <div *ngIf="uploadExtractComplete" class="file-info">
+          <button
+            class="upload-btn"
+            (click)="evaluateFile(); disableButton('evaluateFile')"
+            [disabled]="buttonStates.evaluateFile"
+            [ngClass]="{ 'clicked-btn': buttonStates.evaluateFile }"
+          >
+            Evaluate
+          </button>
+        </div>
+      
+        <div *ngIf="evalMessage" class="file-info">
+          <p>{{ evalMessage }}</p>
+        </div>
+      
+        <div *ngIf="evalCompleted" class="file-info">
+          <h3>Evaluation Report</h3>
+          <button
+            class="upload-btn"
+            (click)="restart(); disableButton('restart')"
+            [disabled]="buttonStates.restart"
+            [ngClass]="{ 'clicked-btn': buttonStates.restart }"
+          >
+            Done (start new evaluation)
+          </button>
         </div>
       </div>
+      
   
       <!-- History Section -->
       <div *ngIf="activeOption === 2">
         <!-- Display 'History' if username exists -->
         <ng-container *ngIf="username; else guestView">
           <h2 class="history-text">History</h2>
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Upload Date</th>
+                <th>Input File</th>
+                <th>Evaluation Report</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let record of history; let i = index">
+                <td>{{ i + 1 }}</td>
+                <td>{{ record.uploadDate }}</td>
+                <td>
+                  <a 
+                    target="_blank" 
+                    class="file-link"
+                  >
+                    {{ record.documentName }}
+                  </a>
+                </td>
+                <td>
+                  <button class="report-btn" (click)="viewReport(record.documentName)">Report</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </ng-container>
       
         <!-- Guest view if no username -->

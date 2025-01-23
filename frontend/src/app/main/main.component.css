@@ -121,3 +121,51 @@ body {
     font-weight: normal;
     text-align: left; /* Optional, center the text */
   }
+
+  .history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .history-table th, .history-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .history-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .report-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .report-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .file-link {
+    text-decoration: underline;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .file-link:hover {
+    color: #0056b3;
+  }
+  
+  .upload-btn.clicked-btn,
+.auth-btn.clicked-btn,
+.dropdown-btn.clicked-btn {
+  background-color: #a5d6a7; /* Light green for a disabled state */
+  color: #ffffff; /* Keep text white */
+  cursor: not-allowed; /* Show the user they can't click it */
+}
