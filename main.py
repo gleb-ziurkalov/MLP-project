@@ -3,20 +3,21 @@ import json
 import numpy as np
 
 from sources.pdf_processing import pdf_to_tdata, pdf_to_text
-from sources.text_preprocessor import preprocess_doc
+# from sources.text_preprocessor import preprocess_doc
 from sources.data_labeler import label_data
-from sources.model_trainer import train_model
+# from sources.model_trainer import train_model
 
-PDF_STATEMENTS_DIR = "./data/pdf_statements/"
+TRAINING_PDF_DIR   = "./data/pdf_statements/"
 LABELED_DATA_DIR   = "./data/labeled_data/"
 INPUT_PDF_DIR      = "./data/input_pdf/"
+OUTPUT_JSON_DIR    = "./data/output_JSON/"
 
 TRAINED_MODEL_DIR  = "./data/trained_model/"
-FINAL_MODEL_DIR  = "./data/final_model/"
+FINAL_MODEL_DIR  = "./data/models/block_classification_oversampled/"
 
 
-TFILES = os.listdir(PDF_STATEMENTS_DIR)
-SFILES = os.listdir(INPUT_PDF_DIR)
+TRAIN_FILES = os.listdir(TRAINING_PDF_DIR)
+INPUT_FILES = os.listdir(INPUT_PDF_DIR)
 
 def default_handler(obj):
     if isinstance(obj, np.floating):
@@ -36,10 +37,10 @@ def label_doc(text):
 
     return labeled_data
 
-def process_tdata(files):
+def process_tdata(files, model_path=TRAINING_PDF_DIR, output_path=LABELED_DATA_DIR):
     for entry in files:
         
-        file_path = os.path.join(PDF_STATEMENTS_DIR, entry)
+        file_path = os.path.join(model_path, entry)
         dataset_raw = pdf_to_tdata(file_path)
 
         # dataset_prep = preprocess_doc(dataset_raw)
@@ -47,25 +48,26 @@ def process_tdata(files):
         dataset_labeled = label_doc(dataset_raw)
         # dataset_labeled = label_doc(dataset_prep)
 
-        training_dataset_path = os.path.join(LABELED_DATA_DIR, f"{entry}.json")
+        training_dataset_path = os.path.join(output_path, f"{entry}.json")
         with open(training_dataset_path, "w") as f:
             json.dump(dataset_labeled, f, indent=4, default=default_handler)
 
-def process_statement(files):
+def process_statement(files, model_path=FINAL_MODEL_DIR):
+    # rewrite to take a single file, separate files
     for entry in files:
+
         file_path = os.path.join(INPUT_PDF_DIR, entry)
-        compliance_processed = pdf_to_text(file_path, FINAL_MODEL_DIR)
-        
-        print("Compliant Statements:")
-        for statement in compliance_processed:
-            print(statement)
+        compliance_processed = pdf_to_text(file_path, model_path)
+
+        output_path = os.path.join(OUTPUT_JSON_DIR, f"{entry}.json")
+        with open(output_path, "w") as f:
+            json.dump(compliance_processed, f, indent=4, default=default_handler)
 
 def main():
-
-    # process_tdata(TFILES)
+    # process_tdata(TRAIN_FILES)
     # train_model(LABELED_DATA_DIR, FINAL_MODEL_DIR)
 
-    process_statement(INPUT_PDF_DIR)
+    process_statement(INPUT_FILES)
 
 
 if __name__ == "__main__":

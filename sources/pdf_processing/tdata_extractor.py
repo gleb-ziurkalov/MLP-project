@@ -58,6 +58,7 @@ def calculate_iou(box1, box2):
 
 def image_to_tdata(pages):
     consolidated_results = []
+    
     for page in pages:
         # Convert page to NumPy array
         image = np.array(page)
