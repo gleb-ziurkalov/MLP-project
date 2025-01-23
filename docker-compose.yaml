@@ -1,0 +1,38 @@
+version: "3"
+
+services:
+
+
+  dbs:
+    image: mysql:8.0
+    container_name: dbs
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+    - ./init:/docker-entrypoint-initdb.d
+    - dbs_volume:/var/lib/mysql
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: frontend.dockerfile # Specify custom Dockerfile name
+    ports:
+      - "4200:80"
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: backend.dockerfile
+    ports:
+      - "5000:5000" # Flask app on port 5000
+    
+volumes: 
+  dbs_volume:
+
+  
+
+
