@@ -3,10 +3,10 @@ import json
 import numpy as np
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-from sources_refactor.pdf_processing import pdf_to_tdata, pdf_to_text, pdf_to_image, image_to_text, classify_lines
-# from sources_refactor.text_preprocessor import preprocess_doc
-from sources_refactor.data_labeler import label_data
-# from sources_refactor.model_trainer import train_model
+from sources.pdf_processing import pdf_to_tdata, pdf_to_text, pdf_to_image, image_to_text, classify_lines
+# from sourcesr.text_preprocessor import preprocess_doc
+from sources.data_labeler import label_data
+# from sources.model_trainer import train_model
 
 TRAINING_PDF_DIR   = "./data/pdf_statements/"
 LABELED_DATA_DIR   = "./data/labeled_data/"
@@ -42,8 +42,8 @@ def label_doc(text):
 
     return labeled_data
 
-def json_print(json_path, data, mod):
-    output_path = os.path.join(f"{json_path}_{mod}.json")
+def json_print(json_path, file_name, data, mod):
+    output_path = os.path.join(f"{json_path}{file_name}_{mod}.json")
     with open(output_path, "w") as f:
         json.dump(data, f, indent=4, default=default_handler)
 
@@ -81,11 +81,9 @@ def process_statement(entry, model, tokenizer):
     json_print(OUTPUT_JSON_DIR, compliance_processed,mod="eval")    
     print("Report Printed")
 
-
 def process_statement_batch(files):
     for entry in files:
         process_statement(entry, model=MODEL, tokenizer=TOKENIZER)
-
 
 def main():
     # model init
@@ -93,12 +91,13 @@ def main():
     tokenizer=TOKENIZER
 
     # getting first (and only) file from dir
-    file_path = os.path.join(INPUT_PDF_DIR, INPUT_FILES[0])
+    file_name = INPUT_FILES[0]
+    file_path = os.path.join(INPUT_PDF_DIR, file_name)
 
     # extracting text from pdf file
     pages = pdf_to_image(file_path)
     text_lines = image_to_text(pages, model)
-    json_print(OUTPUT_JSON_DIR, text_lines, mod="text")
+    json_print(OUTPUT_JSON_DIR, file_name, text_lines, mod="text")
     print("Text extracted")
         
     # evaluating extracted text
@@ -107,7 +106,7 @@ def main():
     compliance_processed = [line for line, label in classified_lines if label == 1]
     print("Evaluation complete")
     # printing the evaluated JSON
-    json_print(OUTPUT_JSON_DIR, compliance_processed, mod="eval")    
+    json_print(OUTPUT_JSON_DIR, file_name, compliance_processed, mod="eval")    
     print("Report Printed")
 
     
