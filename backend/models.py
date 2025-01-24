@@ -14,4 +14,4 @@ class EvalData(database.Model):
     UploadDate = database.Column(database.DateTime, nullable=False)  # Mandatory column
     InputFileName = database.Column(database.String(255), nullable=False)  # Mandatory column
     OutputFileName = database.Column(database.String(255), nullable=False)  # Mandatory column
-    UserID = database.Column(database.Integer, database.ForeignKey('Users.UserID'), nullable=True) 
+    UserID = database.Column(database.Integer, database.ForeignKey('users.userid'), nullable=True) 

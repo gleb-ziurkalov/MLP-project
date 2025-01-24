@@ -32,20 +32,22 @@ export class UserService {
     return this.http.get<Eval[]>('http://127.0.0.1:5000/history', { params });
   }
 
-  uploadFile(fileff: File) {
-    // Create a FormData object to hold the file
+  uploadFile(fileff: File, userIDFF: number) {
+    // Create a FormData object to hold the file and user ID
     const formData = new FormData();
     formData.append('file', fileff);
+    formData.append('userID', userIDFF.toString()); // Add userID as a string
   
-    // Make an HTTP POST request to upload the file
+    // Make an HTTP POST request to upload the file with the user ID
     return this.http.post<{ message: string }>('http://127.0.0.1:5000/upload', formData);
   }
 
   extractFile() {
     return this.http.post<{ message: string }>('http://127.0.0.1:5000/extract', {});
   }
-  evaluateFile() {
-    return this.http.post<{ message: string }>('http://127.0.0.1:5000/evaluate', {});
+  evaluateFile(userIDFF: any) {
+    const body = { userID: userIDFF.toString() };
+    return this.http.post<Eval[]>('http://127.0.0.1:5000/evaluate', body);
   }
   
 }

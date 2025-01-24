@@ -18,6 +18,7 @@ export class MainComponent implements OnInit {
   userID: number | null = null; // Assuming userID is stored in local storage
   history: Eval[] = []; // To store history data
 
+
   @ViewChild('fileInput') fileInput!: ElementRef<HTMLInputElement>;
   selectedFile: File | null = null;
 
@@ -115,25 +116,22 @@ export class MainComponent implements OnInit {
   uploadAndExtract():void{
     this.uploadExtractComplete = false
     this.uploadExtractMsg = 'Uploading...'
-    setTimeout(() => { // Sleep the thread for 2 seconds
-      this.uploadFile();
-      this.uploadExtractMsg = 'Upload completed, Extracting text...';
-      setTimeout(() => {
-        this.extractFile();
-        this.uploadExtractMsg = 'Text Extracted!';
-        this.uploadExtractComplete = true
-      }, 2000)
-    }, 2000);
+    this.uploadFile();
+    
+    
+      
   }
 
   uploadFile():void{
     if (this.selectedFile) {
       this.userService
-        .uploadFile(this.selectedFile)
+        .uploadFile(this.selectedFile, this.userID===null ? 0 : this.userID)
         .pipe(
           // Log the response
           tap(response => {
             console.log('File upload response:', response);
+            this.uploadExtractMsg = 'Upload completed, Extracting text...';
+            this.extractFile();
           }),
           // Handle errors
           catchError(error => {
@@ -149,20 +147,60 @@ export class MainComponent implements OnInit {
   }
 
   extractFile():void{
-
+      this.userService
+        .extractFile()
+        .pipe(
+          // Log the response
+          tap(response => {
+            console.log('Text extraction response:', response);
+            this.uploadExtractMsg = 'Text Extracted!';
+            this.uploadExtractComplete = true
+            
+          }),
+          // Handle errors
+          catchError(error => {
+            console.error('Error during text extraction:', error);
+            alert('Failed to extract the text. Please try again.');
+            return of(null); // Return an empty observable to gracefully handle the error
+          })
+        )
+        .subscribe();
+    
   }
 
   evalMessage: string | null = null; 
   evalCompleted: boolean = false;
 
+
+
   evaluateFile(): void {
     this.evalMessage = "Evaluating..."
     this.evalCompleted = false
-    setTimeout(() => {
-      this.evalMessage = "Evaluation Completed!"
-      this.evalCompleted = true
-    }, 2000)
 
+    this.evalFileFunction()
+  }
+
+  evaluation: any | null = null; 
+
+  evalFileFunction(): void{
+    this.userService
+        .evaluateFile(this.userID===null ? -1 : this.userID)
+        .pipe(
+          // Log the response
+          tap(response => {
+            console.log('Evaluation response:', response);
+            this.evaluation = response
+            this.evalMessage = "Evaluation Completed!"
+            this.evalCompleted = true
+          }),
+          // Handle errors
+          catchError(error => {
+            console.error('Error during evaluation', error);
+            alert('Failed to do the evaluation. Please try again.');
+            return of(null); // Return an empty observable to gracefully handle the error
+          })
+        )
+        .subscribe();
   }
 
   restart():void{
@@ -193,9 +231,15 @@ export class MainComponent implements OnInit {
     }
   }
 
+  openPDF(event: Event,stra: string, strb: string) {
+    const pdfUrl = 'http://localhost:5000/backend/uploads/'+stra+'_'+strb;
+    window.open(pdfUrl, '_blank');
+    // Add your custom logic here
+  }
+
   viewReport(fileName: string): void {
     // Placeholder for "Report" button functionality
-    console.log(`Viewing report for file: ${fileName}`);
-    window.open('', '_blank');
+    const url = 'http://localhost:5000/backend/output/'+fileName;
+    window.open(url, '_blank');
   }
 }
