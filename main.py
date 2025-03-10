@@ -7,13 +7,13 @@ from sources.pdf_processing import pdf_to_tdata, pdf_to_text
 from sources.data_labeler import label_data
 # from sources.model_trainer import train_model
 
-TRAINING_PDF_DIR   = "./data/pdf_statements/"
+TRAINING_PDF_DIR   = "./data/training_data/"
 LABELED_DATA_DIR   = "./data/labeled_data/"
-INPUT_PDF_DIR      = "./data/input_pdf/"
-OUTPUT_JSON_DIR    = "./data/output_JSON/"
+INPUT_PDF_DIR      = "./staging/input_pdf/"
+OUTPUT_JSON_DIR    = "./staging/output_JSON/"
 
-TRAINED_MODEL_DIR  = "./data/trained_model/"
-FINAL_MODEL_DIR  = "./data/models/block_classification_oversampled/"
+TRAINED_MODEL_DIR  = "./models/trained_model/"
+FINAL_MODEL_DIR    = "./models/block_classification_oversampled/"
 
 
 TRAIN_FILES = os.listdir(TRAINING_PDF_DIR)
@@ -37,16 +37,12 @@ def label_doc(text):
 
     return labeled_data
 
-def process_tdata(files, model_path=TRAINING_PDF_DIR, output_path=LABELED_DATA_DIR):
+def process_tdata(files, input_path=TRAINING_PDF_DIR, output_path=LABELED_DATA_DIR):
     for entry in files:
-        
-        file_path = os.path.join(model_path, entry)
+        file_path = os.path.join(input_path, entry)
         dataset_raw = pdf_to_tdata(file_path)
 
-        # dataset_prep = preprocess_doc(dataset_raw)
-        
         dataset_labeled = label_doc(dataset_raw)
-        # dataset_labeled = label_doc(dataset_prep)
 
         training_dataset_path = os.path.join(output_path, f"{entry}.json")
         with open(training_dataset_path, "w") as f:
@@ -64,10 +60,9 @@ def process_statement(files, model_path=FINAL_MODEL_DIR):
             json.dump(compliance_processed, f, indent=4, default=default_handler)
 
 def main():
-    # process_tdata(TRAIN_FILES)
+    process_tdata(TRAIN_FILES)
     # train_model(LABELED_DATA_DIR, FINAL_MODEL_DIR)
-
-    process_statement(INPUT_FILES)
+    # process_statement(INPUT_FILES)
 
 
 if __name__ == "__main__":

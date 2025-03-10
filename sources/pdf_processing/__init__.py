@@ -1,8 +1,6 @@
 from .image_processor import pdf_to_image
 from .tdata_extractor import image_to_tdata
 from .text_extractor import image_to_text
-from .text_extractor import classify_lines
-
 
 import gc
 import torch
