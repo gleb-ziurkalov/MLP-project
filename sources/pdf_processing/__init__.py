@@ -5,7 +5,6 @@ from .text_extractor import image_to_text
 import gc
 import torch
 
-
 def pdf_to_tdata(pdf_path):
     # Process all pages and consolidate results for training dataset
     pages = pdf_to_image(pdf_path)
@@ -16,7 +15,7 @@ def pdf_to_tdata(pdf_path):
 
 
 def pdf_to_text(pdf_path, model_path):
-    # Process all pages and consolidate results for processing
+    # Process all pages, extract and classify the sentences
     pages = pdf_to_image(pdf_path)
     processed_text = image_to_text(pages, model_path)
 
