@@ -1,59 +1,154 @@
+"""Command-line interface for the compliance processing pipeline."""
+
+from __future__ import annotations
+
+import argparse
+from typing import Sequence
+
 import config
-import os
-import json
-import numpy as np
+from sources.pipeline.orchestrator import (
+    generate_training_data,
+    label_metadata,
+    run_inference,
+    train_classifier,
+)
 
-from sources.pdf_processing import pdf_to_tdata, pdf_to_text
-from sources.data_labeler import label_data
-from sources.model_trainer import train_model
 
-TRAIN_FILES = os.listdir(config.LABELED_PDF_DIR)
-INPUT_FILES = os.listdir(config.INPUT_PDF_DIR)
+def _print_paths(description: str, paths):
+    if not paths:
+        print(f"No files processed for {description}.")
+        return
 
-def default_handler(obj):
-    if isinstance(obj, np.floating):
-        return float(obj)
-    if isinstance(obj, np.integer):
-        return int(obj)
-    raise TypeError(f"Object of type {type(obj)} is not JSON serializable")
+    print(f"{description}:")
+    for path in paths:
+        print(f" - {path}")
 
-def label_doc(text):
-    unlabeled_data = []
-    labeled_data = []
 
-    for element in text:
-        unlabeled_data.append({"compliance_statement":element["compliance_statement"], "compliance_data":None, "date":None, "business_entity": None, "regulation": None, "text": element["text"]}) 
-    
-    labeled_data = label_data(unlabeled_data)    
+def _handle_generate_training_data(args):
+    outputs = generate_training_data(args.input_dir, args.output_dir)
+    _print_paths("Generated training datasets", outputs)
 
-    return labeled_data
 
-def process_tdata(files, input_path=config.LABELED_PDF_DIR, output_path=config.TRAINING_DATA_DIR):
-    for entry in files:
-        file_path = os.path.join(input_path, entry)
-        dataset_labeled = pdf_to_tdata(file_path)
+def _handle_label_metadata(args):
+    outputs = label_metadata(args.input_dir, args.output_dir)
+    _print_paths("Labeled datasets", outputs)
 
-        # dataset_labeled = label_doc(dataset_raw)
 
-        training_dataset_path = os.path.join(output_path, f"{entry}.json")
-        with open(training_dataset_path, "w") as f:
-            json.dump(dataset_labeled, f, indent=4, default=default_handler)
+def _handle_train(args):
+    train_classifier(
+        args.data_dir,
+        args.model_output_dir,
+        model_name=args.model_name,
+        epochs=args.epochs,
+        batch_size=args.batch_size,
+    )
+    print(f"Model training complete. Artifacts saved to {args.model_output_dir}.")
 
-def process_statement(files, model_path=config.USE_MODEL_DIR):
-    # rewrite to take a single file, separate files
-    for entry in files:
 
-        file_path = os.path.join(config.INPUT_PDF_DIR, entry)
-        compliance_processed = pdf_to_text(file_path, model_path)
+def _handle_infer(args):
+    outputs = run_inference(args.input_dir, args.output_dir, args.model_dir)
+    _print_paths("Inference outputs", outputs)
 
-        output_path = os.path.join(config.OUTPUT_JSON_DIR, f"{entry}.json")
-        with open(output_path, "w") as f:
-            json.dump(compliance_processed, f, indent=4, default=default_handler)
 
-def main():
-    process_tdata(TRAIN_FILES)
-    # train_model(config.TRAINING_DATA_DIR, config.USE_MODEL_DIR)
-    # process_statement(INPUT_FILES)
+def build_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(
+        description="Run individual stages of the compliance processing pipeline.",
+    )
+    subparsers = parser.add_subparsers(dest="command", required=True)
+
+    generate_parser = subparsers.add_parser(
+        "generate-training-data",
+        help="Convert labeled PDFs into JSON training datasets.",
+    )
+    generate_parser.add_argument(
+        "--input-dir",
+        default=config.LABELED_PDF_DIR,
+        help="Directory containing labeled PDF documents.",
+    )
+    generate_parser.add_argument(
+        "--output-dir",
+        default=config.TRAINING_DATA_DIR,
+        help="Directory where generated training JSON files will be stored.",
+    )
+    generate_parser.set_defaults(func=_handle_generate_training_data)
+
+    label_parser = subparsers.add_parser(
+        "label-metadata",
+        help="Augment training datasets with metadata labels.",
+    )
+    label_parser.add_argument(
+        "--input-dir",
+        default=config.TRAINING_DATA_DIR,
+        help="Directory containing JSON training datasets to label.",
+    )
+    label_parser.add_argument(
+        "--output-dir",
+        default=config.TRAINING_DATA_DIR,
+        help="Directory where labeled JSON files will be written.",
+    )
+    label_parser.set_defaults(func=_handle_label_metadata)
+
+    train_parser = subparsers.add_parser(
+        "train",
+        help="Fine-tune the classifier using labeled training data.",
+    )
+    train_parser.add_argument(
+        "--data-dir",
+        default=config.TRAINING_DATA_DIR,
+        help="Directory containing labeled training data JSON files.",
+    )
+    train_parser.add_argument(
+        "--model-output-dir",
+        default=config.TRAINED_MODEL_DIR,
+        help="Directory where the trained model will be saved.",
+    )
+    train_parser.add_argument(
+        "--model-name",
+        default="nlpaueb/legal-bert-base-uncased",
+        help="Base transformer model to fine-tune.",
+    )
+    train_parser.add_argument(
+        "--epochs",
+        type=int,
+        default=3,
+        help="Number of training epochs.",
+    )
+    train_parser.add_argument(
+        "--batch-size",
+        type=int,
+        default=32,
+        help="Batch size for training.",
+    )
+    train_parser.set_defaults(func=_handle_train)
+
+    infer_parser = subparsers.add_parser(
+        "infer",
+        help="Run inference on PDFs and export compliance statements to JSON.",
+    )
+    infer_parser.add_argument(
+        "--input-dir",
+        default=config.INPUT_PDF_DIR,
+        help="Directory containing PDFs for inference.",
+    )
+    infer_parser.add_argument(
+        "--output-dir",
+        default=config.OUTPUT_JSON_DIR,
+        help="Directory where inference JSON files will be stored.",
+    )
+    infer_parser.add_argument(
+        "--model-dir",
+        default=config.USE_MODEL_DIR,
+        help="Directory containing the trained model used for inference.",
+    )
+    infer_parser.set_defaults(func=_handle_infer)
+
+    return parser
+
+
+def main(argv: Sequence[str] | None = None) -> None:
+    parser = build_parser()
+    args = parser.parse_args(argv)
+    args.func(args)
 
 
 if __name__ == "__main__":
