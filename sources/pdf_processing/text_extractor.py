@@ -1,4 +1,4 @@
-import config
+from functools import lru_cache
 
 from .image_processor import OCR
 from .sentence_processor import segment_sentences
@@ -9,12 +9,17 @@ import torch
 
 import numpy as np
 
-tokenizer = AutoTokenizer.from_pretrained(config.USE_MODEL_DIR)
-model = AutoModelForSequenceClassification.from_pretrained(config.USE_MODEL_DIR)
 
-# Check if a GPU is available and move the model to the GPU
-device = "cuda" if cuda.is_available() else "cpu"
-model = model.to(device)
+@lru_cache(maxsize=1)
+def _load_model(model_path: str):
+    """Load and cache the classifier model and tokenizer."""
+
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
+    model = AutoModelForSequenceClassification.from_pretrained(model_path)
+    device = "cuda" if cuda.is_available() else "cpu"
+    model = model.to(device)
+    return model, tokenizer
+
 
 def classify_sentences(model, tokenizer, sentences, batch_size=32):
     """Classify sentences as compliant or not compliant in batches."""
@@ -43,7 +48,7 @@ def classify_sentences(model, tokenizer, sentences, batch_size=32):
     return [(sentence, label) for sentence, label in zip(valid_sentences, predictions)]
 
 
-def image_to_text(pages):
+def image_to_text(pages, model_path):
     sentences = []
 
     for page in pages:
@@ -60,6 +65,7 @@ def image_to_text(pages):
         # Collect sentences for classification
         sentences.extend([s[0] for s in segmented_sentences])  # Extract text content only
     
+    model, tokenizer = _load_model(model_path)
     classified_sentences = classify_sentences(model, tokenizer, sentences)
     print(classified_sentences)
 
