@@ -1,28 +1,35 @@
-from .image_processor import OCR
+from __future__ import annotations
 
-import spacy
+from typing import Iterable, List, Optional, Sequence, Tuple
 
-nlp = spacy.load("en_core_web_sm")  # Used for sentence segmentation
+import numpy as np
+
+from .services import OcrService, SentenceSegmenter
+
+TextBox = Tuple[str, Sequence[Sequence[float]]]
+SentenceRecord = dict
 
 
-def extract_bbox(image):
+def extract_bbox(image: np.ndarray, ocr_service: OcrService) -> Optional[List[TextBox]]:
     """Extract bounding boxes and text using OCR."""
-    ocr_results = OCR.ocr(image, cls=False)
-    
-    print(ocr_results)
+    ocr_results = ocr_service.ocr(image, cls=False)
 
-    extracted_data = []
+    extracted_data: List[TextBox] = []
+    if not ocr_results:
+        return None
+
     for line in ocr_results[0]:
         if len(line) < 2:
-            continue  # Skip malformed OCR results
+            continue
 
         bbox, (text, conf) = line
-        if text.strip():  # Ensure non-empty text
+        if text and text.strip():
             extracted_data.append((text, bbox))
-    
-    return extracted_data if extracted_data else None  # Avoid returning NULL
 
-def convert_bbox(paddle_bbox):
+    return extracted_data if extracted_data else None
+
+
+def convert_bbox(paddle_bbox: Sequence[Sequence[float]]) -> List[float]:
     """Convert PaddleOCR bounding box format (4 points) to (x_min, y_min, x_max, y_max)."""
     x_min = min(point[0] for point in paddle_bbox)
     y_min = min(point[1] for point in paddle_bbox)
@@ -31,46 +38,43 @@ def convert_bbox(paddle_bbox):
     return [x_min, y_min, x_max, y_max]
 
 
-def segment_sentences(text_boxes):
-    sentences = []
-    words = [item[0] for item in text_boxes]  # Extract words only
-    bounding_boxes = [item[1] for item in text_boxes]  # Extract bounding boxes
+def segment_sentences(
+    text_boxes: Optional[Iterable[TextBox]],
+    sentence_segmenter: SentenceSegmenter,
+) -> List[SentenceRecord]:
+    sentences: List[SentenceRecord] = []
 
-    # Join words into a full text passage
+    if not text_boxes:
+        return sentences
+
+    words = [item[0] for item in text_boxes]
+    bounding_boxes = [item[1] for item in text_boxes]
+
     full_text = " ".join(words)
+    doc = sentence_segmenter.segment(full_text)
 
-    # Use spaCy to split into sentences
-    doc = nlp(full_text)
     for sent in doc.sents:
         sentence_text = sent.text.strip()
+        if not sentence_text:
+            continue
 
-        # Find words that belong to this sentence
-        matched_boxes = []
-        for word, bbox in zip(words, bounding_boxes):
-            if word in sentence_text:
-                matched_boxes.append(bbox)
+        matched_boxes = [bbox for word, bbox in zip(words, bounding_boxes) if word in sentence_text]
 
-        # Merge bounding boxes for sentence
         if matched_boxes:
-            x_min = min(box[0][0] for box in matched_boxes)  # Left-most x
-            y_min = min(box[0][1] for box in matched_boxes)  # Top-most y
-            x_max = max(box[2][0] for box in matched_boxes)  # Right-most x
-            y_max = max(box[2][1] for box in matched_boxes)  # Bottom-most y
-
+            x_min = min(box[0][0] for box in matched_boxes)
+            y_min = min(box[0][1] for box in matched_boxes)
+            x_max = max(box[2][0] for box in matched_boxes)
+            y_max = max(box[2][1] for box in matched_boxes)
             sentence_bbox = (x_min, y_min, x_max, y_max)
         else:
-            sentence_bbox = None  # Avoid NULL values
+            sentence_bbox = None
 
-        # **Use dictionary instead of tuple**
-        sentences.append({
-            "text": sentence_text,
-            "bounding_box": sentence_bbox
-        })
+        sentences.append({"text": sentence_text, "bounding_box": sentence_bbox})
 
     return sentences
 
 
-def find_sentence_box(sentence, text_boxes):
+def find_sentence_box(sentence: str, text_boxes: Iterable[SentenceRecord]):
     """Find a bounding box that covers a given sentence based on text box locations."""
     matching_boxes = [box["bounding_box"] for box in text_boxes if sentence in box["text"]]
     if not matching_boxes:
