@@ -1,16 +1,20 @@
+"""Utilities for converting PDF documents into image pages."""
+
+from __future__ import annotations
+
 from pdf2image import convert_from_path
-from paddleocr import PaddleOCR
 
-DPI = 300
-OCR = PaddleOCR(lang='en')  # Use 'multilingual' for multi-language PDFs
+DEFAULT_DPI = 300
 
-def pdf_to_image(pdf_path):
-    """Extract and consolidate text from a PDF, labeling compliance statements."""
+
+def pdf_to_image(pdf_path: str, *, dpi: int = DEFAULT_DPI):
+    """Render a PDF into a list of PIL.Image pages."""
+
     try:
-        # Convert PDF to images (keep colors for highlight detection)
-        pages = convert_from_path(pdf_path, dpi=DPI)
-    except Exception as e:
-        print(f"Error converting PDF to images: {e}")
+        return convert_from_path(pdf_path, dpi=dpi)
+    except Exception as exc:  # pragma: no cover - defensive logging
+        print(f"Error converting PDF to images: {exc}")
         return []
 
-    return pages
+
+__all__ = ["DEFAULT_DPI", "pdf_to_image"]

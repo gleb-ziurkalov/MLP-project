@@ -9,11 +9,11 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
-from typing import Iterable, List, Sequence
+from typing import Iterable, List, Optional, Sequence
 
 import numpy as np
 
-from sources.pdf_processing import pdf_to_tdata, pdf_to_text
+from sources.pdf_processing import PdfProcessingFactory, pdf_to_tdata, pdf_to_text
 from sources.data_labeler import label_data
 from sources.model_trainer import train_model
 
@@ -38,12 +38,18 @@ def _iter_files(directory: Path, suffixes: Sequence[str]) -> Iterable[Path]:
             yield item
 
 
-def generate_training_data(input_pdf_dir: str, output_dir: str) -> List[Path]:
+def generate_training_data(
+    input_pdf_dir: str,
+    output_dir: str,
+    *,
+    processing_factory: Optional[PdfProcessingFactory] = None,
+) -> List[Path]:
     """Generate labeled training data from PDFs.
 
     Args:
         input_pdf_dir: Directory containing labeled PDF documents.
         output_dir: Directory where generated training JSON files will be saved.
+        processing_factory: Optional factory used to construct shared services.
 
     Returns:
         A list of paths to the generated JSON files.
@@ -54,7 +60,7 @@ def generate_training_data(input_pdf_dir: str, output_dir: str) -> List[Path]:
 
     generated_files: List[Path] = []
     for pdf_path in _iter_files(input_dir, (".pdf",)):
-        dataset_labeled = pdf_to_tdata(str(pdf_path))
+        dataset_labeled = pdf_to_tdata(str(pdf_path), factory=processing_factory)
         target = output_path / f"{pdf_path.stem}.json"
         with target.open("w", encoding="utf-8") as fp:
             json.dump(dataset_labeled, fp, indent=4, default=_json_serializer)
@@ -124,15 +130,32 @@ def train_classifier(
     )
 
 
-def run_inference(input_pdf_dir: str, output_dir: str, model_dir: str) -> List[Path]:
-    """Run inference on PDFs and write classified statements to JSON files."""
+def run_inference(
+    input_pdf_dir: str,
+    output_dir: str,
+    model_dir: str,
+    *,
+    processing_factory: Optional[PdfProcessingFactory] = None,
+    batch_size: int = 32,
+) -> List[Path]:
+    """Run inference on PDFs and write classified statements to JSON files.
+
+    Args:
+        processing_factory: Optional factory used to configure shared services.
+        batch_size: Batch size forwarded to the classifier service.
+    """
 
     input_dir = Path(input_pdf_dir)
     output_path = _ensure_directory(Path(output_dir))
 
     inference_outputs: List[Path] = []
     for pdf_path in _iter_files(input_dir, (".pdf",)):
-        compliance_processed = pdf_to_text(str(pdf_path), str(model_dir))
+        compliance_processed = pdf_to_text(
+            str(pdf_path),
+            str(model_dir),
+            factory=processing_factory,
+            batch_size=batch_size,
+        )
         target = output_path / f"{pdf_path.stem}.json"
         with target.open("w", encoding="utf-8") as fp:
             json.dump(compliance_processed, fp, indent=4, default=_json_serializer)

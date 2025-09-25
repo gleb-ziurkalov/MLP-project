@@ -1,72 +1,65 @@
-from functools import lru_cache
+"""Utilities for extracting and classifying sentences from PDF pages."""
 
-from .image_processor import OCR
-from .sentence_processor import segment_sentences
+from __future__ import annotations
 
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
-from torch import cuda
-import torch
+from typing import TYPE_CHECKING, Callable, Dict, Iterable, List
 
 import numpy as np
 
+from .sentence_processor import extract_bbox, segment_sentences
 
-@lru_cache(maxsize=1)
-def _load_model(model_path: str):
-    """Load and cache the classifier model and tokenizer."""
-
-    tokenizer = AutoTokenizer.from_pretrained(model_path)
-    model = AutoModelForSequenceClassification.from_pretrained(model_path)
-    device = "cuda" if cuda.is_available() else "cpu"
-    model = model.to(device)
-    return model, tokenizer
+if TYPE_CHECKING:  # pragma: no cover - type hints only
+    from .services import ClassifierBundle, ClassifierService, OcrService, SentenceSegmenter
 
 
-def classify_sentences(model, tokenizer, sentences, batch_size=32):
-    """Classify sentences as compliant or not compliant in batches."""
-    device = model.device  # Automatically get the model's device
-    valid_sentences = [s for s in sentences if isinstance(s, str) and s.strip()]
-    predictions = []
+def image_to_text(
+    pages: Iterable,
+    classifier_source: "ClassifierBundle"
+    | Callable[[], "ClassifierBundle"]
+    | "ClassifierService",
+    *,
+    ocr_service: "OcrService",
+    sentence_segmenter: "SentenceSegmenter",
+    batch_size: int = 32,
+) -> List[Dict[str, int]]:
+    """Extract and classify sentences from rendered PDF pages."""
 
-    for i in range(0, len(valid_sentences), batch_size):
-        batch = valid_sentences[i:i + batch_size]
+    if classifier_source is None:
+        raise ValueError("classifier_source must be provided")
+    if ocr_service is None:
+        raise ValueError("ocr_service must be provided")
+    if sentence_segmenter is None:
+        raise ValueError("sentence_segmenter must be provided")
 
-        # Tokenize the batch
-        tokenized_batch = tokenizer(batch, truncation=True, padding="max_length", return_tensors="pt")
+    if hasattr(classifier_source, "bundle"):
+        classifier_bundle = classifier_source.bundle  # type: ignore[attr-defined]
+    elif callable(classifier_source):
+        classifier_bundle = classifier_source()
+    else:
+        classifier_bundle = classifier_source
 
-        # Move input tensors to the same device as the model
-        tokenized_batch = {k: v.to(device) for k, v in tokenized_batch.items()}
+    if classifier_bundle is None:
+        raise ValueError("classifier_bundle could not be resolved")
 
-        # Perform inference
-        with torch.no_grad():  # Disable gradient computation for inference
-            outputs = model(**tokenized_batch)
-            logits = outputs.logits
-            batch_predictions = logits.argmax(dim=-1).tolist()
-
-        predictions.extend(batch_predictions)
-
-    # Pair sentences with predictions
-    return [(sentence, label) for sentence, label in zip(valid_sentences, predictions)]
-
-
-def image_to_text(pages, model_path):
-    sentences = []
+    sentences: List[str] = []
 
     for page in pages:
-        print(f"Processing page: {page}")
         image = np.array(page)
-        ocr_results = OCR.ocr(image, cls=False)
+        text_boxes = extract_bbox(image, ocr_service)
+        if not text_boxes:
+            continue
 
-        # Extract text content and bounding boxes
-        text_boxes = [(line[1][0], line[0]) for line in ocr_results[0]]
+        segmented_sentences = segment_sentences(text_boxes, sentence_segmenter)
+        for sentence in segmented_sentences:
+            text = sentence.get("text") if isinstance(sentence, dict) else None
+            if isinstance(text, str) and text.strip():
+                sentences.append(text)
 
-        # Segment text into sentences
-        segmented_sentences = segment_sentences(text_boxes)
+    if not sentences:
+        return []
 
-        # Collect sentences for classification
-        sentences.extend([s[0] for s in segmented_sentences])  # Extract text content only
-    
-    model, tokenizer = _load_model(model_path)
-    classified_sentences = classify_sentences(model, tokenizer, sentences)
-    print(classified_sentences)
+    classified = classifier_bundle.classify(sentences, batch_size=batch_size)
+    return [{"text": text, "label": int(label)} for text, label in classified]
 
-    return classified_sentences
+
+__all__ = ["image_to_text"]
