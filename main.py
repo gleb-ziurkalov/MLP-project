@@ -4,7 +4,7 @@ import config
 from sources.compliance_processor import CompliancePipeline, CompliancePipelineConfig
 from sources.data_labeler import DateLabeler, EntityLabeler, LabelingPipeline, PartLabeler, RegulationLabeler
 from sources.pdf_processing import PDFProcessor
-from sources import model_trainer
+from sources.model_trainer import ModelTrainer
 
 
 def build_labeling_pipeline() -> LabelingPipeline:
@@ -29,7 +29,12 @@ def main():
 
     pdf_processor = PDFProcessor()
     labeling_pipeline = build_labeling_pipeline()
-    pipeline = CompliancePipeline(pdf_processor, labeling_pipeline, model_trainer, pipeline_config)
+    trainer = ModelTrainer(
+        training_data_dir=pipeline_config.training_data_dir,
+        output_dir=pipeline_config.trained_model_dir or pipeline_config.inference_model_dir,
+    )
+
+    pipeline = CompliancePipeline(pdf_processor, labeling_pipeline, trainer, pipeline_config)
 
     training_files = [
         entry for entry in os.listdir(pipeline_config.labeled_pdf_dir)
