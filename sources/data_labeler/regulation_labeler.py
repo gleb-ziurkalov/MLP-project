@@ -1,21 +1,52 @@
+"""Regulation keyword based labeler."""
+
+from __future__ import annotations
+
 import re
+from typing import Iterable, Sequence
 
-REGULATION_PATTERNS = [
-    "TSCA", "REACH", "SVHC", "EPA", "OSHA", "RoHS",
-    "Toxic Substances Control Act", "Section 6(h)", "PBT substances",
-    "Prop65","Prop 65","Proposition 65", "Conflict minerals", "WEEE",
-    "PFAS", "ECHA", "Toxic Substance Control Act"
-]
-PATTERN = r'\b(?:' + '|'.join(re.escape(term) for term in REGULATION_PATTERNS) + r')\b'
+from . import BaseLabeler
 
-def label_regulations(dataset):
-    # Build a single regex pattern for all terms
-    
-    for line in dataset:
-        # print(line)
-        matches = re.findall(PATTERN, line["text"], re.IGNORECASE)
-        if matches:
-            line["regulation"] = 1
-            line["compliance_data"] = 1
+
+class RegulationLabeler(BaseLabeler):
+    """Label records that reference regulatory terms."""
+
+    DEFAULT_PATTERNS: Sequence[str] = (
+        "TSCA",
+        "REACH",
+        "SVHC",
+        "EPA",
+        "OSHA",
+        "RoHS",
+        "Toxic Substances Control Act",
+        "Section 6(h)",
+        "PBT substances",
+        "Prop65",
+        "Prop 65",
+        "Proposition 65",
+        "Conflict minerals",
+        "WEEE",
+        "PFAS",
+        "ECHA",
+        "Toxic Substance Control Act",
+    )
+
+    def __init__(self, patterns: Iterable[str] | None = None):
+        terms = list(patterns or self.DEFAULT_PATTERNS)
+        self._pattern = re.compile(
+            r"\b(?:" + "|".join(re.escape(term) for term in terms) + r")\b",
+            flags=re.IGNORECASE,
+        )
+
+    def label(self, record):  # type: ignore[override]
+        labeled_record = record
+        text = str(labeled_record.get("text", ""))
+        if self._pattern.search(text):
+            labeled_record["regulation"] = 1
+            labeled_record["compliance_data"] = 1
         else:
-            line["regulation"] = 0
+            labeled_record["regulation"] = 0
+        return labeled_record
+
+
+__all__ = ["RegulationLabeler"]
