@@ -2,7 +2,7 @@ import os
 
 import config
 from sources.compliance_processor import CompliancePipeline, CompliancePipelineConfig
-from sources import pdf_processing
+from sources.pdf_processing import PDFProcessor
 from sources import data_labeler
 from sources import model_trainer
 
@@ -17,7 +17,8 @@ def main():
         trained_model_dir=config.TRAINED_MODEL_DIR,
     )
 
-    pipeline = CompliancePipeline(pdf_processing, data_labeler, model_trainer, pipeline_config)
+    pdf_processor = PDFProcessor()
+    pipeline = CompliancePipeline(pdf_processor, data_labeler, model_trainer, pipeline_config)
 
     training_files = [
         entry for entry in os.listdir(pipeline_config.labeled_pdf_dir)

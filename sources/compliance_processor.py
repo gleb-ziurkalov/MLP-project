@@ -67,7 +67,7 @@ class CompliancePipeline:
 
         for entry in files:
             file_path = os.path.join(input_dir, entry)
-            dataset_labeled = self.pdf_processor.pdf_to_tdata(file_path)
+            dataset_labeled = self.pdf_processor.to_training_data(file_path)
 
             training_dataset_path = os.path.join(output_dir, f"{entry}.json")
             with open(training_dataset_path, "w") as f:
@@ -88,7 +88,7 @@ class CompliancePipeline:
 
         for entry in files:
             file_path = os.path.join(input_dir, entry)
-            compliance_processed = self.pdf_processor.pdf_to_text(file_path, model_dir)
+            compliance_processed = self.pdf_processor.to_compliant_sentences(file_path, model_dir)
 
             output_file_path = os.path.join(output_dir, f"{entry}.json")
             with open(output_file_path, "w") as f:
