@@ -10,6 +10,7 @@ from typing import Iterable, Optional, Sequence
 import numpy as np
 
 from .data_labeler import LabelingPipeline
+from .model_trainer import ModelTrainer
 
 
 @dataclass
@@ -27,7 +28,13 @@ class CompliancePipelineConfig:
 class CompliancePipeline:
     """Coordinate data extraction, training, and inference workflows."""
 
-    def __init__(self, pdf_processor, labeling_pipeline: LabelingPipeline, trainer, config: CompliancePipelineConfig):
+    def __init__(
+        self,
+        pdf_processor,
+        labeling_pipeline: LabelingPipeline,
+        trainer: ModelTrainer,
+        config: CompliancePipelineConfig,
+    ):
         self.pdf_processor = pdf_processor
         self.labeling_pipeline = labeling_pipeline
         self.trainer = trainer
@@ -100,11 +107,12 @@ class CompliancePipeline:
         training_files = files or os.listdir(self.config.labeled_pdf_dir)
         self.process_tdata(training_files)
 
-    def train(self, **trainer_kwargs):
-        output_dir = self.config.trained_model_dir or self.config.inference_model_dir
-        return self.trainer.train_model(
-            self.config.training_data_dir, output_dir, **trainer_kwargs
-        )
+    def train(self, evaluate: bool = True, **trainer_kwargs):
+        self.trainer.prepare_dataset()
+        trainer = self.trainer.train(**trainer_kwargs)
+        if evaluate:
+            return self.trainer.evaluate()
+        return trainer
 
     def run_inference(self, files: Optional[Sequence[str]] = None):
         inference_files = files or os.listdir(self.config.input_pdf_dir)
