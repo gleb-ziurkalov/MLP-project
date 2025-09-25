@@ -2,9 +2,19 @@ import os
 
 import config
 from sources.compliance_processor import CompliancePipeline, CompliancePipelineConfig
+from sources.data_labeler import DateLabeler, EntityLabeler, LabelingPipeline, PartLabeler, RegulationLabeler
 from sources.pdf_processing import PDFProcessor
-from sources import data_labeler
 from sources import model_trainer
+
+
+def build_labeling_pipeline() -> LabelingPipeline:
+    labelers = [
+        DateLabeler(),
+        EntityLabeler(confidence_threshold=0.85),
+        RegulationLabeler(),
+        PartLabeler(),
+    ]
+    return LabelingPipeline(labelers)
 
 
 def main():
@@ -18,7 +28,8 @@ def main():
     )
 
     pdf_processor = PDFProcessor()
-    pipeline = CompliancePipeline(pdf_processor, data_labeler, model_trainer, pipeline_config)
+    labeling_pipeline = build_labeling_pipeline()
+    pipeline = CompliancePipeline(pdf_processor, labeling_pipeline, model_trainer, pipeline_config)
 
     training_files = [
         entry for entry in os.listdir(pipeline_config.labeled_pdf_dir)

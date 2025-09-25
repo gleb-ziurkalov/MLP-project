@@ -9,6 +9,8 @@ from typing import Iterable, Optional, Sequence
 
 import numpy as np
 
+from .data_labeler import LabelingPipeline
+
 
 @dataclass
 class CompliancePipelineConfig:
@@ -25,9 +27,9 @@ class CompliancePipelineConfig:
 class CompliancePipeline:
     """Coordinate data extraction, training, and inference workflows."""
 
-    def __init__(self, pdf_processor, labeler, trainer, config: CompliancePipelineConfig):
+    def __init__(self, pdf_processor, labeling_pipeline: LabelingPipeline, trainer, config: CompliancePipelineConfig):
         self.pdf_processor = pdf_processor
-        self.labeler = labeler
+        self.labeling_pipeline = labeling_pipeline
         self.trainer = trainer
         self.config = config
 
@@ -52,7 +54,7 @@ class CompliancePipeline:
                     "text": element.get("text"),
                 }
             )
-        return self.labeler.label_data(unlabeled_data)
+        return self.labeling_pipeline.label_data(unlabeled_data)
 
     def process_tdata(
         self,
